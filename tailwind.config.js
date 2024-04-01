@@ -19,9 +19,8 @@ module.exports = {
       colors:{
         dark: "#1b2b3b", // Kama Dark
         light: "#e4f4f4", // Kama Light
-        primary: "#45f383", // 27,243,258 - Kama Green
-        primaryDark: "#51ffe4", // 80,230,217 - Kama Turquoise
-        yellow: "#FFE55E", // 255, 223, 56 - Kama Yellow
+        primary: "#F6CD46", //  - Kama Yellow
+        primaryDark: "#843FC5" // Kama Purple
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',

@@ -89,9 +89,9 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="https://t.me/kamawinga_bot" target={"_blank"}
-                className="flex items-center bg-yellow text-dark p-2.5 px-6 rounded-lg text-lg font-semibold
+                className="flex items-center bg-primaryDark text-dark p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-primary hover:text-light border-2 border-solid border-dark hover:border-dark
-                dark:bg-yellow dark:text-dark hover:dark:bg-primaryDark hover:dark:text-dark hover:dark:border-light
+                dark:bg-primary dark:text-dark hover:dark:bg-primaryDark hover:dark:text-dark hover:dark:border-light
                 md:p-2 md:px-4 md:text-base
                 "
                 download={true}
@@ -99,9 +99,9 @@ export default function Home() {
                 </Link>
 
                 <Link href="https://t.me/kamawinga_chat" target={"_blank"}
-                className="ml-10 flex items-center bg-yellow text-dark p-2.5 px-6 rounded-lg text-lg font-semibold
+                className="ml-10 flex items-center bg-primaryDark text-dark p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-primary hover:text-light border-2 border-solid border-dark hover:border-dark
-                dark:bg-yellow dark:text-dark hover:dark:bg-primaryDark hover:dark:text-dark hover:dark:border-light
+                dark:bg-primary dark:text-dark hover:dark:bg-primaryDark hover:dark:text-dark hover:dark:border-light
                 md:p-2 md:px-4 md:text-base
                 "
                 download={true}
