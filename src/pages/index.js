@@ -12,7 +12,6 @@ import TransitionEffect from '@/components/TransitionEffect';
 import Roadmap from '@/components/Roadmap';
 import About from '@/components/About';
 import Program from '@/components/Program';
-import Allocations from '@/components/Allocations';
 import { motion } from 'framer-motion';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -120,10 +119,6 @@ export default function Home() {
             <About/> 
           </div>
 
-          <div id='allocations'>
-            <Allocations/> 
-          </div>
-          
           <div className='col-span-12'>
             <FullCard
                 title="Join Presale on $KAMA Bot"
