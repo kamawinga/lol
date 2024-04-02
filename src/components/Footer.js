@@ -95,6 +95,17 @@ const Footer = () => {
         </Layout>
 
         <Layout className='py-4 flex items-center justify-between lg:flex-col lg:py-6'>
+            <div className='flex items-center lg:py-4'>
+              <p>
+                Disclaimer: $KAMA is a meme coin with no intrinsic value or expectation of financial return. 
+                $KAMA is completely useless and for entertainment purposes only. $KAMA is a 
+                fictional character based on a living meme. When you purchase $KAMA, 
+                you are agreeing that you have seen this disclaimer.
+              </p>
+            </div>
+        </Layout>
+
+        <Layout className='py-4 flex items-center justify-between lg:flex-col lg:py-6'>
           <span>{new Date().getFullYear} &copy; All Rights Reserved.</span>
             <div className='flex items-center lg:py-4'>
                 Built with <span className='text-primary dark:text-primaryDark text-2xl px-1'>&hearts;</span>
