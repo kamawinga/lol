@@ -13,6 +13,7 @@ import Roadmap from '@/components/Roadmap';
 import About from '@/components/About';
 import Program from '@/components/Program';
 import { motion } from 'framer-motion';
+import YouTubeVideo from '@/components/YouTubeVideo';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -141,6 +142,10 @@ export default function Home() {
 
           <div id='roadmap'>
             <Roadmap/> 
+          </div>
+
+          <div id='watch'>
+            <YouTubeVideo/>
           </div>
 
         </Layout>

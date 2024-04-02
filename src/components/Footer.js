@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react'
-import { LinkedInIcon, TwitterIcon, TelegramIcon, InstagramIcon, MediumIcon, GithubIcon, YouTubeIcon, SunIcon, MoonIcon } from './Icons';
-import Logo from './Logo';
+import { TwitterIcon, TelegramIcon, InstagramIcon, MediumIcon, GithubIcon, YouTubeIcon, SunIcon, MoonIcon } from './Icons';
 import Layout from './Layout'
 import Link from 'next/link';
 import { motion } from "framer-motion";
