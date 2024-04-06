@@ -40,10 +40,10 @@ const Program = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Revoked Freez</h1>
+                    <h1>No Freeze</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>The contract ownership is RENOUNCED.</h1>
+                    <h1>The freeze authority is revoked too.</h1>
                 </div>
             </div>
 
