@@ -74,44 +74,51 @@ const Roadmap = () => {
                 />
                 
                 <Details 
-                title="Start Airdrop & Presale"
+                title="Start Airdrop"
                 status=""
-                time="April 2nd, 2024"
-                info="Start Presale Event with the Airdrop and Presale."
+                time="April 7th, 2024"
+                info="Start Airdrop Event."
+                />
+                
+                <Details 
+                title="Start Presale"
+                status=""
+                time="April 12th, 2024"
+                info="Start Presale Event."
                 />
                 
                 <Details 
                 title="End Airdrop & Presale"
                 status=""
-                time="April 13th, 2024"
+                time="April 15th, 2024"
                 info="End of the Airdrop & Presale Event."
                 />
                 
                 <Details 
                 title="Add Liquidity and Burn LP Token"
                 status=""
-                time="April 13th, 2024"
+                time="April 15th, 2024"
                 info="Add Liquidity to the DEX and burn the LP token."
                 />
                 
                 <Details 
                 title="Presale Token Distribution"
                 status=""
-                time="April 14th, 2024"
+                time="April 16th, 2024"
                 info="Distribute the token allocation of presale participants."
                 />
                 
                 <Details 
                 title="Yield Farming"
                 status=""
-                time="April 15th, 2024"
-                info="Create yield farm for those providing Liquidity to the pool."
+                time="April 17th, 2024"
+                info="Create yield farm for those providing Liquidity to the pool. This goes on for 30 days."
                 />
                 
                 <Details 
                 title="Airdrop Token Distribution"
                 status=""
-                time="April 17th, 2024"
+                time="April 18th, 2024"
                 info="Distribute the airdrop allocation amongst the airdrop participants."
                 />
                 
@@ -120,6 +127,13 @@ const Roadmap = () => {
                 status=""
                 time="April 19th, 2024"
                 info="Distribute the Bonus allocation amongst the Winners."
+                />
+                
+                <Details 
+                title="Start Burning"
+                status=""
+                time="April 19th, 2024"
+                info="Burn $KAMA - Burn 5% (half of Team Allocation) of total supply in 30 batches over the period of 30 days."
                 />
             </ul>
         </div>
