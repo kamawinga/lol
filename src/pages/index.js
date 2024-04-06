@@ -11,9 +11,10 @@ import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect';
 import Roadmap from '@/components/Roadmap';
 import About from '@/components/About';
-import Program from '@/components/Program';
+import Kamanomics from '@/components/Kamanomics';
 import { motion } from 'framer-motion';
 import YouTubeVideo from '@/components/YouTubeVideo';
+import allocPic from "../../public/images/allocations.png";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -53,7 +54,7 @@ const FullCard = ({img, title, description, link, buttonTitle}) => {
               <Link
                 href={link}
                 target="_blank"
-                className='ml-4 rounded-lg bg-dark dark:bg-light text-light dark:text-dark p-2 px-6 text-lg font-semibold'
+                className='rounded-lg bg-dark dark:bg-light text-light dark:text-dark p-2 px-6 text-lg font-semibold'
               > {buttonTitle}</Link>
             </motion.a>
           </div>
@@ -90,54 +91,34 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="https://t.me/kamawinga_bot" target={"_blank"}
-                className="flex items-center bg-primaryDark text-dark p-2.5 px-6 rounded-lg text-lg font-semibold
-                hover:bg-primary hover:text-light border-2 border-solid border-dark hover:border-dark
-                dark:bg-primary dark:text-dark hover:dark:bg-primaryDark hover:dark:text-dark hover:dark:border-light
+                className="flex items-center bg-primaryDark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
+                hover:bg-primary hover:text-dark border-2 border-solid border-dark hover:border-dark
+                dark:bg-primary dark:text-dark hover:dark:bg-primaryDark hover:dark:text-light hover:dark:border-light
                 md:p-2 md:px-4 md:text-base
                 "
                 download={true}
                 >Join Presale <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
 
-                <Link href="https://t.me/kamawinga_chat" target={"_blank"}
-                className="ml-10 flex items-center bg-primaryDark text-dark p-2.5 px-6 rounded-lg text-lg font-semibold
-                hover:bg-primary hover:text-light border-2 border-solid border-dark hover:border-dark
-                dark:bg-primary dark:text-dark hover:dark:bg-primaryDark hover:dark:text-dark hover:dark:border-light
+                <Link href="https://t.me/kamawinga_bot" target={"_blank"}
+                className="ml-10 flex items-center bg-primaryDark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
+                hover:bg-primary hover:text-dark border-2 border-solid border-dark hover:border-dark
+                dark:bg-primary dark:text-dark hover:dark:bg-primaryDark hover:dark:text-light hover:dark:border-light
                 md:p-2 md:px-4 md:text-base
                 "
                 download={true}
-                >Join Group <LinkArrow className={"w-6 ml-1"}/>
+                >Join Airdrop <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
               </div>
             </div>
           </div>
           
-          <div id='program'>
-            <Program/> 
+          <div id='kamanomics'>
+            <Kamanomics/> 
           </div>
-          
+
           <div id='about'>
             <About/> 
-          </div>
-
-          <div className='col-span-12'>
-            <FullCard
-                title="Join Presale on $KAMA Bot"
-                img={cardPic}
-                description="$KAMA Airdrop & Presale is facilitated by our Telegram Bot. Users can use it to join the airdrop and buy into the presale.,"
-                link="https://t.me/kamawinga_bot"
-                buttonTitle="Use $KAMA Bot"
-            />
-          </div>
-
-          <div className='pt-20 col-span-12'>
-            <FullCard
-                title="Join Presale on $KAMA Bot"
-                img={cardPic}
-                description="$KAMA Airdrop & Presale is facilitated by our Telegram Bot. Users can use it to join the airdrop and buy into the presale.,"
-                link="https://t.me/kamawinga_bot"
-                buttonTitle="Use $KAMA Bot"
-            />
           </div>
 
           <div id='roadmap'>
