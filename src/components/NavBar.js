@@ -73,7 +73,7 @@ const NavBar = () => {
         <div className='w-full flex justify-between items-center lg:hidden'>
             <nav>
                 <CustomLink href="/" title="Home" className='mr-4'/>
-                <CustomLink href="#kamanomics" title="Kamanomic$" className='mr-4'/>
+                <CustomLink href="#kamanomics" title="Kamanomics" className='mr-4'/>
                 <CustomLink href="#programs" title="Programs" className='mx-4'/>
                 <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
                 <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
@@ -140,7 +140,7 @@ const NavBar = () => {
             '>
                 <nav className='flex items-center flex-col justify-center'>
                     <CustomMobileLink href="/" title="Home" className='' toggle={handleClick} />
-                    <CustomMobileLink href="#kamanomics" title="Kamanomic$" className='' toggle={handleClick} />
+                    <CustomMobileLink href="#kamanomics" title="Kamanomics" className='' toggle={handleClick} />
                     <CustomMobileLink href="#programs" title="Programs" className='' toggle={handleClick} />
                     <CustomMobileLink href="#roadmap" title="Roadmap" className='' toggle={handleClick} />
                     <CustomMobileLink href="#watch" title="Watch The Meme" className='' toggle={handleClick} />
