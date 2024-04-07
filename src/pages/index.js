@@ -10,7 +10,7 @@ import AnimatedText from '../components/AnimatedText';
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect';
 import Roadmap from '@/components/Roadmap';
-import About from '@/components/About';
+import Programs from '@/components/Programs';
 import Kamanomics from '@/components/Kamanomics';
 import { motion } from 'framer-motion';
 import YouTubeVideo from '@/components/YouTubeVideo';
@@ -117,8 +117,8 @@ export default function Home() {
             <Kamanomics/> 
           </div>
 
-          <div id='about'>
-            <About/> 
+          <div id='programs'>
+            <Programs/> 
           </div>
 
           <div id='roadmap'>
