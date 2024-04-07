@@ -132,7 +132,7 @@ const Kamanomics = () => {
                     <h1>Marketing</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Influencer Marketing.</h1>
+                    <h1>Promotions for Marketing.</h1>
                 </div>
             </div>
 
