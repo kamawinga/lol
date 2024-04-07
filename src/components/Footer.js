@@ -39,8 +39,10 @@ const Footer = () => {
           <div className='lg:pb-4'>
             <nav>
               <CustomLink href="/" title="Home" className='mr-4'/>
-              <CustomLink href="/projects" title="Projects" className='mr-4'/>
-              <CustomLink href="/blogs" title="Blogs" className='mx-4'/>
+              <CustomLink href="#kamanomics" title="Kamanomic$" className='mr-4'/>
+              <CustomLink href="#programs" title="Programs" className='mx-4'/>
+              <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
+              <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
             </nav>
           </div>
 
@@ -98,15 +100,17 @@ const Footer = () => {
             <div className='flex items-center lg:py-4'>
               <p>
                 Disclaimer: $KAMA is a meme coin with no intrinsic value or expectation of financial return. 
-                $KAMA is completely useless and for entertainment purposes only. $KAMA is a 
-                fictional character based on a living meme. When you purchase $KAMA, 
-                you are agreeing that you have seen this disclaimer.
+                $KAMA is completely useless and for entertainment purposes only. $KAMA is a fictional character 
+                based on a living meme and does not represent a person or a group of people. Citizens of USA and 
+                sanctioned countries should not participate in the presale or airdrop as it is not provided nor 
+                supported by us. When you purchase $KAMA, you are agreeing that you have seen this disclaimer and 
+                agree to accept it and abide by it.
               </p>
             </div>
         </Layout>
 
         <Layout className='py-4 flex items-center justify-between lg:flex-col lg:py-6'>
-          <span>{new Date().getFullYear} &copy; All Rights Reserved.</span>
+          <span>{new Date().getFullYear} &copy; 2024-Present | All Rights Reserved.</span>
             <div className='flex items-center lg:py-4'>
                 Built with <span className='text-primary dark:text-primaryDark text-2xl px-1'>&hearts;</span>
                 by&nbsp;<Link href="https://x.com/alfellati" target={"_black"} className='underline underline-offset-2 text-primary dark:text-primaryDark'>MBA</Link>

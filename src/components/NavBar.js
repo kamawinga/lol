@@ -14,7 +14,7 @@ const CustomLink = ({href, title, className=""}) => {
 
             <span className={`
             h-1 rounded-md inline-block bg-dark absolute left-0 -bottom-0.5
-            group-hover:w-full transition-[width] ease duration-300
+            group-hover:w-full transition-[width] ease duration-300 dark:text-light
             ${router.asPath === href ? 'w-full h1 rounded-md' : 'w-0'}
             `}
             >
@@ -37,7 +37,7 @@ const CustomMobileLink = ({href, title, className="", toggle}) => {
 
             <span className={`
             h-1 rounded-md inline-block bg-dark absolute left-0 -bottom-0.5
-            group-hover:w-full transition-[width] ease duration-300
+            group-hover:w-full transition-[width] ease duration-300 dark:text-light
             ${router.asPath === href ? 'w-full h1 rounded-md' : 'w-0'}
             `}
             >
@@ -58,7 +58,7 @@ const NavBar = () => {
 
   return (
     <header
-    className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-dark relative'
+    className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative'
     >
         <div className='
         w-[95%] h-[10.5%] flex justify-between items-center fixed top-10 left-1/2 -translate-x-1/2 -translate-y-1/2
@@ -73,6 +73,10 @@ const NavBar = () => {
         <div className='w-full flex justify-between items-center lg:hidden'>
             <nav>
                 <CustomLink href="/" title="Home" className='mr-4'/>
+                <CustomLink href="#kamanomics" title="Kamanomic$" className='mr-4'/>
+                <CustomLink href="#programs" title="Programs" className='mx-4'/>
+                <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
+                <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
             </nav>
 
             <nav className="flex items-center justify-center flex-wrap">
@@ -136,6 +140,10 @@ const NavBar = () => {
             '>
                 <nav className='flex items-center flex-col justify-center'>
                     <CustomMobileLink href="/" title="Home" className='' toggle={handleClick} />
+                    <CustomMobileLink href="#kamanomics" title="Kamanomic$" className='' toggle={handleClick} />
+                    <CustomMobileLink href="#programs" title="Programs" className='' toggle={handleClick} />
+                    <CustomMobileLink href="#roadmap" title="Roadmap" className='' toggle={handleClick} />
+                    <CustomMobileLink href="#watch" title="Watch The Meme" className='' toggle={handleClick} />
                 </nav>
 
                 <nav className="flex items-center justify-center flex-wra mt-2">
