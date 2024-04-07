@@ -1,6 +1,7 @@
 import { React, useRef } from 'react';
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon"
+import LiIconDone from "./LiIconDone"
 
 const Details = ({ status, time, title, info}) => {
     const ref = useRef(null)
@@ -17,10 +18,38 @@ const Details = ({ status, time, title, info}) => {
                 <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
                     {title}
                 </h3>
-                <h3 className='capitalize font-bold text-primary dark:text-primaryDark text-l sm:text-lg xs:text-sm'>
+                <h3 className='capitalize font-bold text-kamaGreenDark dark:text-kamaGreen text-l sm:text-lg xs:text-sm'>
                     {status}
                 </h3>
-                <span className='capitalize font-medium text-dark/75 dark:text-light/75 sm:text-lg xs:text-sm'>
+                <span className='capitalize font-medium text-primaryDark/75 dark:text-light/75 sm:text-lg xs:text-sm'>
+                    {time}
+                </span>
+                <p className='font-medium w-full md:text-sm'>{info}</p>
+            </motion.div>
+        </li>
+    );
+}
+
+
+const DoneDetails = ({ status, time, title, info}) => {
+    const ref = useRef(null)
+
+    return (
+        <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between  md:w-[80-%]'>
+            
+            <LiIconDone reference={ref}/> 
+            <motion.div
+            initial={{y:50}}
+            whileInView={{y:0}}
+            transition={{duration: 0.5, status: "spring"}}
+            >
+                <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
+                    {title}
+                </h3>
+                <h3 className='capitalize font-bold text-kamaGreenDark dark:text-kamaGreen text-l sm:text-lg xs:text-sm'>
+                    {status}
+                </h3>
+                <span className='capitalize font-medium text-primaryDark/75 dark:text-light/75 sm:text-lg xs:text-sm'>
                     {time}
                 </span>
                 <p className='font-medium w-full md:text-sm'>{info}</p>
@@ -52,7 +81,7 @@ const Roadmap = () => {
                 ' />
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-                <Details 
+                <DoneDetails 
                 title="Branding, Website and Socials"
                 status="DONE"
                 time=""
