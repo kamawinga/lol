@@ -104,7 +104,8 @@ const Footer = () => {
                 based on a living meme and does not represent a person or a group of people. Citizens of USA and 
                 sanctioned countries should not participate in the presale or airdrop as it is not provided nor 
                 supported by us. When you purchase $KAMA, you are agreeing that you have seen this disclaimer and 
-                agree to accept it and abide by it.
+                agree to accept it and abide by it and take responsibility that you shall be liable to abide by 
+                the rules and regulations of your country and/or countries and international law.
               </p>
             </div>
         </Layout>
