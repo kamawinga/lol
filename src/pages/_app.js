@@ -26,7 +26,10 @@ export default function App({ Component, pageProps }) {
           <Component key= {router.asPath} {...pageProps} />
         </AnimatePresence>
         <ScrollToTop />
-        <Footer />
+        
+        <div id='footer'>
+          <Footer />
+        </div>
       </main>
     </>
   );

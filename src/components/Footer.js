@@ -43,6 +43,7 @@ const Footer = () => {
               <CustomLink href="#programs" title="Programs" className='mx-4'/>
               <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
               <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
+              <CustomLink href="#footer" title="Disclaimer" className='mx-4'/>
             </nav>
           </div>
 

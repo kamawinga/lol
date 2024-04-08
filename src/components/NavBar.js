@@ -77,6 +77,7 @@ const NavBar = () => {
                 <CustomLink href="#programs" title="Programs" className='mx-4'/>
                 <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
                 <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
+                <CustomLink href="#footer" title="Disclaimer" className='mx-4'/>
             </nav>
 
             <nav className="flex items-center justify-center flex-wrap">
@@ -144,6 +145,7 @@ const NavBar = () => {
                     <CustomMobileLink href="#programs" title="Programs" className='' toggle={handleClick} />
                     <CustomMobileLink href="#roadmap" title="Roadmap" className='' toggle={handleClick} />
                     <CustomMobileLink href="#watch" title="Watch The Meme" className='' toggle={handleClick} />
+                    <CustomMobileLink href="#footer" title="Disclaimer" className='' toggle={handleClick} />
                 </nav>
 
                 <nav className="flex items-center justify-center flex-wra mt-2">
