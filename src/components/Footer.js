@@ -100,12 +100,15 @@ const Footer = () => {
             <div className='flex items-center lg:py-4'>
               <p>
                 Disclaimer: $KAMA is a meme coin with no intrinsic value or expectation of financial return. 
-                $KAMA is completely useless and for entertainment purposes only. $KAMA is a fictional character 
-                based on a living meme and does not represent a person or a group of people. Citizens of USA and 
-                sanctioned countries should not participate in the presale or airdrop as it is not provided nor 
-                supported by us. When you purchase $KAMA, you are agreeing that you have seen this disclaimer and 
-                agree to accept it and abide by it and take responsibility that you shall be liable to abide by 
-                the rules and regulations of your country and/or countries and international law.
+                The memecoin is strictly for fun and experimental and should not be considered as having any 
+                monetary value. $KAMA is completely useless and for entertainment purposes only and its use 
+                beyond this scope is neither intended nor endorsed. $KAMA is a fictional character based on 
+                a living meme and does not represent a person. Neither $KAMA nor its developer(s) assume any 
+                liability for any form of value attributed to the $KAMA memecoin or for any financial activities 
+                undertaken by users within or in relation to the $KAMA community. By purchasing $KAMA and/or 
+                participating in the $KAMA community and its related applications and activities, you are 
+                agreeing that you have seen this disclaimer and acknowledge the uselessness of the memecoin 
+                and agree to bear all the risks associated with the use and/or purchase of a memecoin.
               </p>
             </div>
         </Layout>
