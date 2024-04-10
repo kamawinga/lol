@@ -1,5 +1,7 @@
 # Kamawinga.LOL 🌟 Website
 
+Built for the [Kamawinga](https://kamawinga.lol) Memecoin.
+
 ## Getting Started
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -48,3 +50,12 @@ on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_me
 
 - [framer-motion](https://www.framer.com/motion/)
 - [Tailwind css](https://tailwindcss.com/)
+
+
+## LICENSE
+
+Kama Bot is licensed under the Apache 2.0 License - see the [LICENSE](./LICENSE) file for details.
+
+## DISCLAIMER
+
+$KAMA is a meme coin with no intrinsic value or expectation of financial return. The memecoin is strictly for fun and experimental and should not be considered as having any monetary value. $KAMA is completely useless and for entertainment purposes only and its use beyond this scope is neither intended nor endorsed. $KAMA is a fictional character based on a living meme and does not represent a person. Neither $KAMA nor its developer(s) assume any liability for any form of value attributed to the $KAMA memecoin or for any financial activities undertaken by users within or in relation to the $KAMA community. By purchasing $KAMA and/or participating in the $KAMA community and its related applications and activities, you are agreeing that you have seen this disclaimer and acknowledge the uselessness of the memecoin and agree to bear all the risks associated with the use and/or purchase of a memecoin.
