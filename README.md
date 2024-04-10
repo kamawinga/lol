@@ -1,5 +1,7 @@
 # Kamawinga.LOL 🌟 Website
 
+## Overview
+
 Built for the [Kamawinga](https://kamawinga.lol) Memecoin.
 
 ## Getting Started
@@ -54,7 +56,7 @@ on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_me
 
 ## LICENSE
 
-Kama Bot is licensed under the Apache 2.0 License - see the [LICENSE](./LICENSE) file for details.
+This repo is licensed under the Apache 2.0 License - see the [LICENSE](./LICENSE) file for details.
 
 ## DISCLAIMER
 
