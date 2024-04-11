@@ -112,7 +112,7 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>Buyers of Presale with</h1>
-                    <h1>Minimum of 6 SOL</h1>
+                    <h1>Minimum of 5.1 SOL</h1>
                     <h1>Maximum of 10 SOL</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
@@ -141,7 +141,7 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>Buyers of Presale with</h1>
-                    <h1>Minimum of 1 SOL</h1>
+                    <h1>Minimum of 1.1 SOL</h1>
                     <h1>Maximum of 5 SOL</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
