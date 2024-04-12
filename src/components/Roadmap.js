@@ -116,39 +116,46 @@ const Roadmap = () => {
                 info="Create branding, build website, launch X account, launch Telegram channel and group."
                 />
 
-                <ProgressDetails 
+                <DoneDetails 
                 title="Deploy and Renounce Contract"
-                status="PROGRESS"
+                status="DONE"
                 time=""
                 info="Create and deploy the SPL token contract and renounce ownership."
                 />
                 
-                <ProgressDetails 
+                <DoneDetails 
                 title="Build and Deploy Telegram Bot"
-                status="PROGRESS"
+                status="DONE"
                 time=""
                 info="Build and deploy the $KAMA Bot for Airdrop, Presale, Referrals and Bonuses."
                 />
                 
                 <ProgressDetails 
-                title="Launch Airdrop & Presale"
+                title="Airdrop"
                 status="PROGRESS"
-                time="April 13th, 2024"
-                info="Start Airdrop & Presale Event."
+                time="April 13th, 2024 - April 24th, 2024 [20:00 UTC]"
+                info="Launch Airdrop Event."
+                />
+                
+                <ProgressDetails 
+                title="Presale"
+                status="PROGRESS"
+                time="April 13th, 2024 - April 19th, 2024 (BTC Halving) [20:00 UTC]"
+                info="Launch Presale Event."
                 />
                 
                 <Details 
-                title="Launch Marketing Campaign"
+                title="Initiate Marketing Campaign"
                 status=""
                 time="April 13th, 2024"
                 info="Start Marketing Campaign."
                 />
                 
                 <Details 
-                title="Close Presale, Launch Liquidity and Burn LP Token"
+                title="Launch $KAMA, Add Liquidity and Burn LP Token"
                 status=""
-                time="April 19th, 2024 (BTC Halving) - 8:00 PM (UTC)"
-                info="End of the Presale Event. Add Liquidity to the DEX and burn the LP token."
+                time="April 19th, 2024 (BTC Halving)"
+                info="Add Liquidity to the DEX and burn the LP token."
                 />
                 
                 <Details 
@@ -156,13 +163,6 @@ const Roadmap = () => {
                 status=""
                 time="April 21st, 2024 - 8:00 PM (UTC)"
                 info="Distribute the token allocation of presale participants."
-                />
-                
-                <Details 
-                title="Close Airdrop"
-                status=""
-                time="April 24th, 2024 - 8:00 PM (UTC)"
-                info="End of the Airdrop Event."
                 />
                 
                 <Details 
@@ -182,7 +182,7 @@ const Roadmap = () => {
                 <Details 
                 title="Token Burning"
                 status=""
-                time="May 7rd, 2024 - May 13th, 2024"
+                time="May 7th, 2024 - May 13th, 2024"
                 info="Burn $KAMA - Burn 7% over the period of 7 days (1% Burn per day)."
                 />
             </ul>
