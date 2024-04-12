@@ -95,7 +95,7 @@ export default function Home() {
               '/>
 
               <p className='my-4 text-lg font-medium md:text-lg sm:text-lg'>
-                If Kama had wheels, he’d be a bike. Kama can be anything. 
+                If Kama had wheels, he’d be a bike. Kama can be whatever. 
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="https://t.me/kamawinga_bot" target={"_blank"}
