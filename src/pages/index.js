@@ -81,13 +81,21 @@ export default function Home() {
               />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText text="It’s $KAMAwinga LOL" className='!text-6xl !text-left
+
+              <AnimatedText text="KAMA Oh!" className='!text-6xl !text-center
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!5xl sm:text-3xl
               '/>
+              
+              <AnimatedText text="KAMA Oh!" className='!text-6xl !text-center
+              xl:!text-5xl lg:!text-center lg:!text-6xl md:!5xl sm:text-3xl
+              '/>
+              
+              <AnimatedText text="Kamawinga" className='!text-6xl !text-center
+              xl:!text-5xl lg:!text-center lg:!text-6xl md:!5xl sm:text-3xl
+              '/>
+
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-              Kamawinga can be anything. In fact, if Kama had wheels, he’d be a bike.
-              Kamawinga is a memecoin with no intrinsic value, and is just for fun.
-              Kamawinga is home. Whoever you are, wherever you come from, Kama is home.
+                If Kama had wheels, he’d be a bike. Kamawinga can be anything. 
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="https://t.me/kamawinga_bot" target={"_blank"}
