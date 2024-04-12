@@ -47,10 +47,10 @@ const Kamanomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>No Freeze</h1>
+                    <h1>0% Tax</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>The freeze authority is REVOKED.</h1>
+                    <h1>NO Buy/Sell Tax.</h1>
                 </div>
             </div>
 
@@ -58,20 +58,6 @@ const Kamanomics = () => {
         
         <div className='w-full grid grid-cols-3 gap-16 sm:gap-8 items-center justify-center pt-16'>
             
-            <div className='col-span-1 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-primary p-8 dark:bg-primaryDark dark:border-light xl:col-span-1 md:order-1 md:col-span-3'
-            >
-                <div
-                    className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
-                />
-                <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>0% Tax</h1>
-                </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>NO Buy or Sell Tax.</h1>
-                </div>
-            </div>
-
             <div className='col-span-1 relative h-max rounded-2xl border-2 border-solid border-dark
             bg-primary p-8 dark:bg-primaryDark dark:border-light xl:col-span-1 md:order-1 md:col-span-3'
             >
@@ -93,10 +79,24 @@ const Kamanomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Token Burn</h1>
+                    <h1>Yield Farming</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>5% of Suply Will Be Burned.</h1>
+                <h1>Farm 1% of Suply daily for 7 days.</h1>
+                </div>
+            </div>
+
+            <div className='col-span-1 relative h-max rounded-2xl border-2 border-solid border-dark
+            bg-primary p-8 dark:bg-primaryDark dark:border-light xl:col-span-1 md:order-1 md:col-span-3'
+            >
+                <div
+                    className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
+                />
+                <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
+                    <h1>Daily Token Burn</h1>
+                </div>
+                <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
+                    <h1>Burn 1% of Suply daily for 7 days.</h1>
                 </div>
             </div>
 
@@ -192,7 +192,7 @@ const Kamanomics = () => {
                     <h1>Giveaways</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Giveaways for social media.</h1>
+                    <h1>Active Community Giveaways.</h1>
                 </div>
             </div>
 
