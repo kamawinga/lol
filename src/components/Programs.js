@@ -1,12 +1,10 @@
 import React, { useEffect, useRef } from 'react';
-import profilePic from "../../public/images/profile/kamaprofile.png";
-import qPic from "../../public/images/1.jpg";
-import wPic from "../../public/images/2.jpg";
-import ePic from "../../public/images/3.jpg";
-import rPic from "../../public/images/4.jpg";
-import tPic from "../../public/images/5.png";
-import yPic from "../../public/images/6.png";
-import uPic from "../../public/images/7.png";
+import presalcommunityBonusesPic from "../../public/images/presale.png";
+import airdropPic from "../../public/images/airdrop.png";
+import referralsPic from "../../public/images/referrals.png";
+import communityBonusesPic from "../../public/images/community-bonuses.png";
+import firstBuyersBonusesPic from "../../public/images/first-buyers-bonuses.png";
+import biggestBuyersBonusesPic from "../../public/images/biggest-buyers-bonuses.png";
 import Image from 'next/image';
 
 const Programs = () => {
@@ -17,7 +15,7 @@ const Programs = () => {
            Program$
         </h2>
 
-        <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
+        <div className='grid w-full grid-cols-6 gap-16 sm:gap-8'>
             
             <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
             bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'
@@ -26,7 +24,7 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={profilePic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={presalcommunityBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
@@ -35,12 +33,11 @@ const Programs = () => {
                     <h1>Presale</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>Presale of $KAMA is</h1>
-                    <h1>facilitated by our Telegram Bot.</h1>
+                    <h1>30% of $KAMA supply for Presale.</h1>
+                    <h1>Open for Only 7 Days.</h1>
                 </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
-                    <p>Minimum of 0.1SOL</p>
-                    <p>Maximum of 10 SOL</p>
+                <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
+                    <p>Min. 0.1 SOL - 10 SOL Max.</p>
                 </div>
             </div>
 
@@ -51,7 +48,7 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={qPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={airdropPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
@@ -60,38 +57,11 @@ const Programs = () => {
                     <h1>Airdrop</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>Airdrop of $KAMA is made to</h1>
-                    <h1>Top 2,580 participants with</h1>
-                        <h1>the most refferals..</h1>
+                    <h1>4% of $KAMA supply for Top 2,580</h1>
+                    <h1>participants with he most refferals.</h1>
                 </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
-                    <p>40,000 $KAMA each</p>
-                </div>
-            </div>
-
-            <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'
-            >
-                <div
-                    className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
-                />
-                <div>
-                    <Image src={wPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
-                    priority
-                    sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
-                    />
-                </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Refferals</h1>
-                </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>Refer family & friends,</h1>
-                    <h1>get the chance to</h1>
-                    <h1>earn $KAMA.</h1>
-                </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
-                    <p>100,000 $KAMA each</p>
-                    <p>for Top 258 Refferals</p>
+                <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
+                    <p>Alloc. relative to referrals share.</p>
                 </div>
             </div>
 
@@ -102,27 +72,25 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={ePic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={referralsPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Tier 1 Bonuses</h1>
+                    <h1>Referrals</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>Buyers of Presale with</h1>
-                    <h1>Minimum of 5.1 SOL</h1>
-                    <h1>Maximum of 10 SOL</h1>
+                    <h1>1% of $KAMA supply for Top 258</h1>
+                    <h1>accounts with he most refferals.</h1>
                 </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
-                    <p>60,000 $KAMA each</p>
-                    <p>for First 258 Buys</p>
+                <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
+                    <p>Alloc. relative to referrals share.</p>
                 </div>
             </div>
         </div>
         
-        <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 pt-16'>
+        <div className='grid w-full grid-cols-6 gap-16 sm:gap-8 pt-16'>
             
             <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
             bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'
@@ -131,22 +99,20 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={rPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={communityBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Tier 2 Bonuses</h1>
+                    <h1>Community Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>Buyers of Presale with</h1>
-                    <h1>Minimum of 1 SOL</h1>
-                    <h1>Maximum of 5 SOL</h1>
+                    <h1>1% of $KAMA supply for 258</h1>
+                    <h1>active community contributors.</h1>
                 </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
-                    <p>50,000 $KAMA each</p>
-                    <p>for First 258 Buys</p>
+                <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
+                    <p>100,000 $KAMA Each.</p>
                 </div>
             </div>
 
@@ -157,22 +123,20 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={tPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={firstBuyersBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Tier 3 Bonuses</h1>
+                    <h1>First Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>The First 258</h1>
-                    <h1>Buyers of Presale</h1>
-                    <h1>are rewarded with</h1>
+                    <h1>0.5% of $KAMA supply for</h1>
+                    <h1>the First 258 Presale Buyers.</h1>
                 </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
-                    <p>40,000 $KAMA each</p>
-                    <p>for First 258 Buys</p>
+                <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
+                <p>Alloc. relative to presale share.</p>
                 </div>
             </div>
 
@@ -183,48 +147,20 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={yPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={biggestBuyersBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Tier 4 Bonuses</h1>
+                    <h1>Biggest Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>Buyers of Presale with</h1>
-                    <h1>Top 258 Largest Buys</h1>
-                    <h1>0.1-10 SOL Maximum.</h1>
+                    <h1>0.5% of $KAMA supply for</h1>
+                    <h1>the 258 Biggest Presale Buyers.</h1>
                 </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
-                    <p>30,000 $KAMA each</p>
-                    <p>for Top 258 Buys</p>
-                </div>
-            </div>
-
-            <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'
-            >
-                <div
-                    className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
-                />
-                <div>
-                    <Image src={uPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
-                    priority
-                    sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
-                    />
-                </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Tier 5 Bonuses</h1>
-                </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>258 Active Community Members</h1>
-                    <h1>Who post fun $KAMA content</h1>
-                    <h1>on X/Twitter</h1>
-                </div>
-                <div className='flex w-full flex-col items-center justify-center font-bold text-xs text-primaryDark dark:text-primary pt-3'>
-                    <p>20,000 $KAMA each</p>
-                    <p>for 258 members</p>
+                <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
+                <p>Alloc. relative to presale share.</p>
                 </div>
             </div>
         </div>

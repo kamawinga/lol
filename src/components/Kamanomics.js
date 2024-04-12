@@ -143,10 +143,10 @@ const Kamanomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Refferals</h1>
+                    <h1>Referrals</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Refferals for Marketing.</h1>
+                    <h1>Referrals for Marketing.</h1>
                 </div>
             </div>
 
