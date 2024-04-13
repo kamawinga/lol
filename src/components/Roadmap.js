@@ -134,14 +134,14 @@ const Roadmap = () => {
                 title="Airdrop"
                 status="PROGRESS"
                 time="April 13th, 2024 - April 24th, 2024 [23:59:59 UTC]"
-                info="Launch Airdrop Event."
+                info="Ongoing Airdrop Event."
                 />
                 
                 <ProgressDetails 
                 title="Presale"
                 status="PROGRESS"
                 time="April 13th, 2024 - April 19th, 2024 [23:59:59 UTC]"
-                info="Launch Presale Event."
+                info="Ongoing Presale Event."
                 />
                 
                 <Details 
