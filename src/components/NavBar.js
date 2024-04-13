@@ -65,70 +65,71 @@ const NavBar = () => {
         bg-primary/90 dark:bg-primaryDark/75 rounded-lg backdrop-blur-sm px-8 py-8 z-30
         '>
             
-        <buton className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
-            <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
-            <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-00'} `}></span>
-            <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
-        </buton>
-        <div className='w-full flex justify-between items-center lg:hidden'>
-            <nav>
-                <CustomLink href="/" title="Home" className='mr-4'/>
-                <CustomLink href="#kamanomics" title="Kamanomics" className='mr-4'/>
-                <CustomLink href="#programs" title="Programs" className='mx-4'/>
-                <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
-                <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
-                <CustomLink href="#footer" title="Disclaimer" className='mx-4'/>
-            </nav>
+            <buton className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
+                <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
+                <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-00'} `}></span>
+                <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
+            </buton>
+            <div className='w-full flex justify-between items-center lg:hidden'>
+                <nav>
+                    <CustomLink href="/" title="Home" className='mr-4'/>
+                    <CustomLink href="#kamanomics" title="Kamanomics" className='mr-4'/>
+                    <CustomLink href="#programs" title="Programs" className='mx-4'/>
+                    <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
+                    <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
+                    <CustomLink href="#footer" title="Disclaimer" className='mx-4'/>
+                </nav>
 
-            <nav className="flex items-center justify-center flex-wrap">
+                <nav className="flex items-center justify-center flex-wrap">
+                    
+                    <motion.a href="https://twitter.com/kamawinga_lol" target={"_blank"}
+                    whileHover={{y:-2}}
+                    whileTap={{scale:0.9}}
+                    className="w-6 mx-3 bg-dark rounded-md"
+                    >
+                        <TwitterIcon />
+                    </motion.a>
+
+                    
+                    <motion.a href="https://t.me/kamawinga_lol" target={"_blank"}
+                    whileHover={{y:-2}}
+                    whileTap={{scale:0.9}}
+                    className="w-6 mx-3"
+                    >
+                        <TelegramIcon />
+                    </motion.a>
                 
-                <motion.a href="https://twitter.com/kamawinga_lol" target={"_blank"}
-                whileHover={{y:-2}}
-                whileTap={{scale:0.9}}
-                className="w-6 mx-3 bg-dark rounded-md"
-                >
-                    <TwitterIcon />
-                </motion.a>
 
-                
-                <motion.a href="https://t.me/kamawinga_lol" target={"_blank"}
-                whileHover={{y:-2}}
-                whileTap={{scale:0.9}}
-                className="w-6 mx-3"
-                >
-                    <TelegramIcon />
-                </motion.a>
-               
+                    {/* 
+                    <motion.a href="https://github.com/kamawinga" target={"_blank"}
+                    whileHover={{y:-2}}
+                    whileTap={{scale:0.9}}
+                    className="w-6 ml-3 bg-dark text-light rounded-full"
+                    >
+                        <GithubIcon />
+                    </motion.a>
+                    */}
 
-                {/* 
-                <motion.a href="https://github.com/kamawinga" target={"_blank"}
-                whileHover={{y:-2}}
-                whileTap={{scale:0.9}}
-                className="w-6 ml-3 bg-dark text-light rounded-full"
-                >
-                    <GithubIcon />
-                </motion.a>
-                */}
+                    <button
+                    onClick={() => setMode(mode === 'light'? 'dark' : 'light')}
+                    className={`ml-3 flex items-center justify-center rounded-full p-1
+                    ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
+                    `}
+                    >
+                        {
+                        mode === 'dark'?
+                        <SunIcon className={"fill-dark"}/>
+                        : <MoonIcon className={"fill-dark"}/>
+                        }
+                    </button>
+                </nav>
+            </div>
+            
+            <div className='absolute left-[48.2%] top-2 items-center'>
+                <Logo />
+            </div>
 
-                <button
-                onClick={() => setMode(mode === 'light'? 'dark' : 'light')}
-                className={`ml-3 flex items-center justify-center rounded-full p-1
-                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
-                `}
-                >
-                    {
-                    mode === 'dark'?
-                    <SunIcon className={"fill-dark"}/>
-                    : <MoonIcon className={"fill-dark"}/>
-                    }
-                </button>
-            </nav>
         </div>
-        
-    <div className='absolute left-[50%] top-2 items-center'>
-        <Logo />
-    </div>
-    </div>
 
         {
             isOpen ?
