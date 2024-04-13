@@ -28,12 +28,12 @@ module.exports = {
         'spin-slow': 'spin 8s linear infinite',
       },
       backgroundImage:{
-        radialSunDark:
-        "radial-gradient(circle, rgba(57,20,42,1) 0%, rgba(17,91,109,1) 50%, rgba(69,23,67,1) 100%)",
         radialShadeLight:
         "radial-gradient(circle, rgba(241,223,233,1) 0%, rgba(206,229,241,1) 25%, rgba(197,227,233,1) 50%, rgba(202,227,238,1) 75%, rgba(238,222,238,1) 100%)",
         radialSunLight:
         "radial-gradient(circle, rgba(246,191,231,1) 0%, rgba(206,229,241,1) 25%, rgba(197,227,233,1) 50%, rgba(202,227,238,1) 75%, rgba(226,193,246,1) 100%)",
+        radialSunDark:
+        "radial-gradient(circle, rgba(57,20,42,1) 0%, rgba(17,91,109,1) 50%, rgba(69,23,67,1) 100%)",
         radialAtmosphereLight:
           "radial-gradient(circle, rgba(232,191,197,1) 0%, rgba(218,206,242,1) 20%, rgba(229,195,226,1) 40%, rgba(232,177,255,1) 60%, rgba(216,218,255,1) 80%, rgba(228,224,255,1) 100%)",
         radialRingsDark:
