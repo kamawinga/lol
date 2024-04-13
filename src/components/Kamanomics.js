@@ -101,10 +101,19 @@ const Kamanomics = () => {
             </div>
 
         </div>
-
-        <div className='flex w-full flex-col items-center justify-center' >
-            <Image src={allocPic} alt='$KAMA Memecoin Token Allocations' />
-        </div>
+        
+        <div className='w-full grid grid-cols-1 gap-16 sm:gap-8 items-center justify-center pt-16 pb-20'>
+            <div className='col-span-1 relative h-200 rounded-2xl border-2 border-solid border-dark
+            bg-radialSunDark p-8 dark:bg-radialSunDark dark:border-light xl:col-span-1 md:order-1 md:col-span-3'
+            >
+                <div
+                    className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
+                />
+                <div className='flex w-full flex-col items-center justify-center' >
+                    <Image src={allocPic} alt='$KAMA Memecoin Token Allocations' />
+                </div>
+            </div>
+            </div>
         
         <div className='w-full grid grid-cols-3 gap-16 sm:gap-8 items-center justify-center'>
             

@@ -18,7 +18,7 @@ const Programs = () => {
         <div className='grid w-full grid-cols-6 gap-16 sm:gap-8'>
             
             <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8 dark:bg-dark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
+            bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
             >
                 <div
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
@@ -42,7 +42,7 @@ const Programs = () => {
             </div>
 
             <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8 dark:bg-dark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
+            bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
             >
                 <div
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
@@ -66,7 +66,7 @@ const Programs = () => {
             </div>
 
             <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8 dark:bg-dark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
+            bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
             >
                 <div
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
@@ -93,7 +93,7 @@ const Programs = () => {
         <div className='grid w-full grid-cols-6 gap-16 sm:gap-8 pt-16'>
             
             <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8 dark:bg-dark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
+            bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
             >
                 <div
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
@@ -117,7 +117,7 @@ const Programs = () => {
             </div>
 
             <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8 dark:bg-dark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
+            bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
             >
                 <div
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
@@ -141,10 +141,10 @@ const Programs = () => {
             </div>
 
             <div className='col-span-2 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8 dark:bg-dark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
+            bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light xl:col-span-2 md:order-1 md:col-span-6'
             >
                 <div
-                    className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
+                    className='absolute top-0 -right-2 -z-10 w-[102%] h-[102%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
                     <Image src={biggestBuyersBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'

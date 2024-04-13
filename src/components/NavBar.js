@@ -62,7 +62,7 @@ const NavBar = () => {
     >
         <div className='
         w-[95%] h-[10.5%] flex justify-between items-center fixed top-10 left-1/2 -translate-x-1/2 -translate-y-1/2
-        bg-primary/90 dark:bg-primaryDark/75 rounded-lg backdrop-blur-sm px-8 py-8 z-30
+        bg-light/40 dark:bg-primaryDark/40 rounded-lg backdrop-blur-sm px-8 py-8 z-30
         '>
             
             <nav className="flex 2xl:pb-3 xl:pb-3 justify-center">
@@ -141,7 +141,7 @@ const NavBar = () => {
             initial={ {scale:0, opacity:0, x: "-50%", y:"-50%"} }
             animate={ {scale:1, opacity:1}}
             className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-            bg-primary/90 dark:bg-primaryDark/75 rounded-lg backdrop-blur-md py-32
+            bg-primary/40 dark:bg-primaryDark/40 rounded-lg backdrop-blur-md py-32
             '>
                 <nav className='flex items-center flex-col justify-center'>
                     <CustomMobileLink href="/" title="Home" className='text-primaryDark dark:text-primary' toggle={handleClick} />

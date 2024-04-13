@@ -28,39 +28,39 @@ const CountdownTimer = ({countdownDate}) => {
   }, []);
 
   return (
-    <div className="grid grid-cols-4 gap-4 items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-primaryDark dark:border-primary">
-      <div className="rounded text-center bg-primaryDark dark:bg-primary w-20">
-        <div className='items-center justify-center font-bold text-3xl text-primary dark:text-primaryDark' >
+    <div className="grid grid-cols-4 gap-4 items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-radialSunDark dark:border-primary">
+      <div className="rounded text-center bg-radialSunDark dark:bg-primary w-20">
+        <div className='items-center justify-center font-bold text-3xl text-primary dark:text-radialSunDark' >
           {countdown.days}
         </div>
-        <div className='items-center justify-center font-bold text-base text-primary dark:text-primaryDark' >
+        <div className='items-center justify-center font-bold text-base text-primary dark:text-radialSunDark' >
           Days
         </div>
       </div>
 
-      <div className="rounded text-center bg-primaryDark dark:bg-primary">
-        <div className='items-center justify-center font-bold text-3xl text-primary dark:text-primaryDark' >
+      <div className="rounded text-center bg-radialSunDark dark:bg-primary">
+        <div className='items-center justify-center font-bold text-3xl text-primary dark:text-radialSunDark' >
           {countdown.hours}
         </div>
-        <div className='items-center justify-center font-bold text-base text-primary dark:text-primaryDark' >
+        <div className='items-center justify-center font-bold text-base text-primary dark:text-radialSunDark' >
           Hours
         </div>
       </div>
 
-      <div className="rounded text-center bg-primaryDark dark:bg-primary">
-        <div className='items-center justify-center font-bold text-3xl text-primary dark:text-primaryDark' >
+      <div className="rounded text-center bg-radialSunDark dark:bg-primary">
+        <div className='items-center justify-center font-bold text-3xl text-primary dark:text-radialSunDark' >
           {countdown.minutes}
         </div>
-        <div className='items-center justify-center font-bold text-base text-primary dark:text-primaryDark' >
+        <div className='items-center justify-center font-bold text-base text-primary dark:text-radialSunDark' >
           Minutes
         </div>
       </div>
 
-      <div className="rounded text-center bg-primaryDark dark:bg-primary">
-        <div className='items-center justify-center font-bold text-3xl text-primary dark:text-primaryDark' >
+      <div className="rounded text-center bg-radialSunDark dark:bg-primary">
+        <div className='items-center justify-center font-bold text-3xl text-primary dark:text-radialSunDark' >
           {countdown.seconds}
         </div>
-        <div className='items-center justify-center font-bold text-base text-primary dark:text-primaryDark' >
+        <div className='items-center justify-center font-bold text-base text-primary dark:text-radialSunDark' >
           Seconds
         </div>
       </div>

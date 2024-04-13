@@ -28,6 +28,16 @@ module.exports = {
         'spin-slow': 'spin 8s linear infinite',
       },
       backgroundImage:{
+        radialSunDark:
+        "radial-gradient(circle, rgba(57,20,42,1) 0%, rgba(17,91,109,1) 50%, rgba(69,23,67,1) 100%)",
+        radialShadeLight:
+        "radial-gradient(circle, rgba(241,223,233,1) 0%, rgba(206,229,241,1) 25%, rgba(197,227,233,1) 50%, rgba(202,227,238,1) 75%, rgba(238,222,238,1) 100%)",
+        radialSunLight:
+        "radial-gradient(circle, rgba(246,191,231,1) 0%, rgba(206,229,241,1) 25%, rgba(197,227,233,1) 50%, rgba(202,227,238,1) 75%, rgba(226,193,246,1) 100%)",
+        radialAtmosphereLight:
+          "radial-gradient(circle, rgba(232,191,197,1) 0%, rgba(218,206,242,1) 20%, rgba(229,195,226,1) 40%, rgba(232,177,255,1) 60%, rgba(216,218,255,1) 80%, rgba(228,224,255,1) 100%)",
+        radialRingsDark:
+        "radial-gradient(circle, rgba(43,40,44,1) 8%, rgba(43,40,44,1) 12%, rgba(44,40,44,1) 21%, rgba(43,40,44,1) 24%, rgba(41,35,42,1) 33%, rgba(19,18,22,1) 35%, rgba(70,58,73,1) 43%, rgba(74,58,84,1) 47%, rgba(66,52,75,1) 56%, rgba(57,53,59,1) 59%, rgba(91,79,95,1) 67%, rgba(84,49,98,1) 70%, rgba(58,45,75,1) 77%, rgba(76,64,80,1) 80%, rgba(79,46,104,1) 90%, rgba(78,60,90,1) 93%)",
         circularLight:
           "repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#e4f4f4 5px,#e4f4f4 100px)",
         

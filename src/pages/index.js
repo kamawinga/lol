@@ -47,8 +47,8 @@ export default function Home() {
               xl:!text-4xl lg:!text-center lg:!text-5xl md:!text5xl sm:text-3xl dark:text-primary
               '/>
               
-              <AnimatedText text="Kamawinga!" className='!text-5xl !text-center text-primary
-              xl:!text-4xl lg:!text-center lg:!text-5xl md:!text5xl sm:text-3xl dark:text-primaryDark
+              <AnimatedText text="Kamawinga!" className='!text-5xl !text-center text-primaryDark
+              xl:!text-4xl lg:!text-center lg:!text-5xl md:!text5xl sm:text-3xl dark:text-primary
               '/>
 
               <p className='my-4 text-lg font-medium md:text-lg sm:text-lg'>
