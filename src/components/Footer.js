@@ -41,16 +41,6 @@ const Footer = () => {
               <Logo />
           </nav>
 
-          <div className='lg:pb-4'>
-            <nav>
-                <CustomLink href="/" title="Home" className='mr-10 xl:mr-5 2xl:mr-7'/>
-                <CustomLink href="#kamanomics" title="Kamanomics" className='mr-6 xl:mr-3 2xl:mr-4'/>
-                <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4'/>
-                <CustomLink href="#roadmap" title="Roadmap" className='mx-6 xl:mx-3 2xl:mx-4'/>
-                <CustomLink href="#footer" title="Disclaimer" className='mx-6 xl:mx-3 2xl:mx-4'/>
-            </nav>
-          </div>
-
           <div className='lg:pt-4'>
             <nav className="flex items-center justify-center flex-wrap">
               
@@ -86,7 +76,7 @@ const Footer = () => {
 
               <button
               onClick={() => setMode(mode === 'light'? 'dark' : 'light')}
-              className={`ml-3 flex items-center justify-center rounded-full p-1
+              className={`w-6 ml-3 flex items-center justify-center rounded-full p-1
               ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
               `}
               >
@@ -96,7 +86,6 @@ const Footer = () => {
                   : <MoonIcon className={"fill-dark"}/>
                   }
               </button>
-                
             </nav>
           </div>
         </Layout>
