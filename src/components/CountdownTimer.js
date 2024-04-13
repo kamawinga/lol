@@ -28,7 +28,7 @@ const CountdownTimer = ({countdownDate}) => {
   }, []);
 
   return (
-    <div className="grid grid-cols-4 gap-4 items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl">
+    <div className="grid grid-cols-4 gap-4 items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-primaryDark dark:border-primary">
       <div className="rounded text-center bg-primaryDark dark:bg-primary w-20">
         <div className='items-center justify-center font-bold text-3xl text-primary dark:text-primaryDark' >
           {countdown.days}

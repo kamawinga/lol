@@ -58,30 +58,27 @@ export default function Home() {
 
               <div className='flex items-center self-center mt-2 lg:self-center'>
                 <Link href="https://t.me/kamawinga_bot" target={"_blank"}
-                className="flex items-center bg-primaryDark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
-                hover:bg-primary hover:text-dark border-2 border-solid border-dark hover:border-dark
-                dark:bg-primary dark:text-dark hover:dark:bg-primaryDark hover:dark:text-light hover:dark:border-light
+                className="flex items-center bg-primary text-primaryDark p-2.5 px-6 rounded-lg text-lg font-semibold
+                hover:bg-primaryDark hover:text-primary border-2 border-solid border-primaryDark hover:border-primary
+                dark:bg-primary dark:text-primaryDark hover:dark:bg-primaryDark hover:dark:text-primary dark:border-primaryDark hover:dark:border-primary
                 md:p-2 md:px-4 md:text-base
                 "
                 download={true}
-                >Join Presale <LinkArrow className={"w-6 ml-1"}/>
+                >Presale <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
 
                 <Link href="https://t.me/kamawinga_bot" target={"_blank"}
-                className="ml-10 flex items-center bg-primaryDark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
-                hover:bg-primary hover:text-dark border-2 border-solid border-dark hover:border-dark
-                dark:bg-primary dark:text-dark hover:dark:bg-primaryDark hover:dark:text-light hover:dark:border-light
+                className="ml-10 flex items-center bg-primaryDark text-primary p-2.5 px-6 rounded-lg text-lg font-semibold
+                hover:bg-primary hover:text-primaryDark border-2 border-solid border-primary hover:border-primaryDark
+                dark:bg-primaryDark dark:text-primary hover:dark:bg-primary hover:dark:text-primaryDark dark:border-primary hover:dark:border-primaryDark
                 md:p-2 md:px-4 md:text-base
                 "
                 download={true}
-                >Join Airdrop <LinkArrow className={"w-6 ml-1"}/>
+                >Airdrop <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
               </div>
 
               <div className='flex items-center self-center mt-5 lg:self-center'>
-                <div className='flex items-center self-center mr-3 lg:self-center'>
-                  <h1>Presale Ends In</h1>
-                </div>
                 <CountdownTimer countdownDate={CountdownDate} />
               </div>
 
