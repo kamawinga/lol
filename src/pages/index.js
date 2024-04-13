@@ -12,7 +12,6 @@ import Roadmap from '@/components/Roadmap';
 import Programs from '@/components/Programs';
 import Kamanomics from '@/components/Kamanomics';
 import { motion } from 'framer-motion';
-import YouTubeVideo from '@/components/YouTubeVideo';
 import CountdownTimer from '@/components/CountdownTimer';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -97,11 +96,6 @@ export default function Home() {
           <div id='roadmap'>
             <Roadmap/> 
           </div>
-
-          <div id='watch'>
-            <YouTubeVideo/>
-          </div>
-
         </Layout>
 
         <div className='absolute right-8 bottom-8 inline-block w-24 md:bottom-[300px] lg:bottom-[260px]'>
