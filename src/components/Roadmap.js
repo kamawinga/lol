@@ -133,14 +133,14 @@ const Roadmap = () => {
                 <ProgressDetails 
                 title="Airdrop"
                 status="PROGRESS"
-                time="April 13th, 2024 - April 24th, 2024 [20:00 UTC]"
+                time="April 13th, 2024 - April 24th, 2024 [23:59:59 UTC]"
                 info="Launch Airdrop Event."
                 />
                 
                 <ProgressDetails 
                 title="Presale"
                 status="PROGRESS"
-                time="April 13th, 2024 - April 19th, 2024 (BTC Halving) [20:00 UTC]"
+                time="April 13th, 2024 - April 19th, 2024 [23:59:59 UTC]"
                 info="Launch Presale Event."
                 />
                 
