@@ -13,7 +13,8 @@ import Programs from '@/components/Programs';
 import Kamanomics from '@/components/Kamanomics';
 import { motion } from 'framer-motion';
 import YouTubeVideo from '@/components/YouTubeVideo';
-import CountdownTimer from '@/components/CountdownTimer';
+import CountdownPresale from '@/components/CountdownPresale';
+import CountdownAirdrop from '@/components/CountdownAirdrop';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -120,7 +121,11 @@ export default function Home() {
               </div>
 
               <div className='flex items-center self-center mt-2 lg:self-center'>
-                <CountdownTimer />
+                <CountdownPresale />
+              </div>
+
+              <div className='flex items-center self-center mt-2 lg:self-center'>
+                <CountdownAirdrop />
               </div>
 
             </div>
