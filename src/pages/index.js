@@ -13,6 +13,7 @@ import Programs from '@/components/Programs';
 import Kamanomics from '@/components/Kamanomics';
 import { motion } from 'framer-motion';
 import YouTubeVideo from '@/components/YouTubeVideo';
+import CountdownTimer from '@/components/CountdownTimer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -70,32 +71,33 @@ export default function Home() {
       </Head>
       <TransitionEffect />
       <main className='flex items-center text-dark w-full main-h-screen dark:text-light'>
-        <Layout className='pt-0 md:p-16 sm:pt-8'>
+        
+        <Layout className='pt-8 md:p-8 md:pt-8 sm:pt-8 lg:pt-8 xl:pt-8'>
+
           <div className="flex items-center justify-between w-full lg:flex-col">
+            
             <div className='w-1/2 md:w-full'>
               <Image src={profilePic} alt="$KAMA Memecoin" className='w-full h-auto lg:w-full md:inline-block md:w-full'
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 50vw"
               />
             </div>
+
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
 
-              <AnimatedText text="KAMA Oh!" className='!text-6xl !text-center
-              xl:!text-5xl lg:!text-center lg:!text-6xl md:!5xl sm:text-3xl
+              <AnimatedText text="KAMA Oh, KAMA Oh!" className='!text-5xl !text-center text-primaryDark
+              xl:!text-4xl lg:!text-center lg:!text-5xl md:!text5xl sm:text-3xl dark:text-primary
               '/>
               
-              <AnimatedText text="KAMA Oh!" className='!text-6xl !text-center
-              xl:!text-5xl lg:!text-center lg:!text-6xl md:!5xl sm:text-3xl
-              '/>
-              
-              <AnimatedText text="Kamawinga" className='!text-6xl !text-center
-              xl:!text-5xl lg:!text-center lg:!text-6xl md:!5xl sm:text-3xl
+              <AnimatedText text="Kamawinga!" className='!text-5xl !text-center text-primary
+              xl:!text-4xl lg:!text-center lg:!text-5xl md:!text5xl sm:text-3xl dark:text-primaryDark
               '/>
 
               <p className='my-4 text-lg font-medium md:text-lg sm:text-lg'>
                 If Kama had wheels, he’d be a bike. Kama can be whatever. 
               </p>
-              <div className='flex items-center self-start mt-2 lg:self-center'>
+
+              <div className='flex items-center self-center mt-2 lg:self-center'>
                 <Link href="https://t.me/kamawinga_bot" target={"_blank"}
                 className="flex items-center bg-primaryDark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-primary hover:text-dark border-2 border-solid border-dark hover:border-dark
@@ -116,7 +118,13 @@ export default function Home() {
                 >Join Airdrop <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
               </div>
+
+              <div className='flex items-center self-center mt-2 lg:self-center'>
+                <CountdownTimer />
+              </div>
+
             </div>
+
           </div>
           
           <div id='kamanomics'>
@@ -140,6 +148,7 @@ export default function Home() {
         <div className='absolute right-8 bottom-8 inline-block w-24 md:bottom-[300px] lg:bottom-[260px]'>
           <Image src={lightBulb} alt="$KAMA Memecoin" className='w-full h-auto' />
         </div>
+
       </main>
     </>
   )
