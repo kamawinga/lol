@@ -5,6 +5,7 @@ import Layout from './Layout'
 import Link from 'next/link';
 import { motion } from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher';
+import Logo from './Logo';
 
 const CustomLink = ({href, title, className=""}) => {
   const router = useRouter();
@@ -36,14 +37,17 @@ const Footer = () => {
     >
       <div className='bg-primary dark:bg-primaryDark px-8 py-8 lg:py-2'>
         <Layout className='py-8 flex items-center justify-between lg:flex-col lg:py-6'>
+          <nav className="flex 2xl:pb-3 xl:pb-3 justify-center">
+              <Logo />
+          </nav>
+
           <div className='lg:pb-4'>
             <nav>
-              <CustomLink href="/" title="Home" className='mr-4'/>
-              <CustomLink href="#kamanomics" title="Kamanomic$" className='mr-4'/>
-              <CustomLink href="#programs" title="Programs" className='mx-4'/>
-              <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
-              <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
-              <CustomLink href="#footer" title="Disclaimer" className='mx-4'/>
+                <CustomLink href="/" title="Home" className='mr-10 xl:mr-5 2xl:mr-7'/>
+                <CustomLink href="#kamanomics" title="Kamanomics" className='mr-6 xl:mr-3 2xl:mr-4'/>
+                <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4'/>
+                <CustomLink href="#roadmap" title="Roadmap" className='mx-6 xl:mx-3 2xl:mx-4'/>
+                <CustomLink href="#footer" title="Disclaimer" className='mx-6 xl:mx-3 2xl:mx-4'/>
             </nav>
           </div>
 
