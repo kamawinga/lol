@@ -13,55 +13,13 @@ import Programs from '@/components/Programs';
 import Kamanomics from '@/components/Kamanomics';
 import { motion } from 'framer-motion';
 import YouTubeVideo from '@/components/YouTubeVideo';
-import CountdownPresale from '@/components/CountdownPresale';
-import CountdownAirdrop from '@/components/CountdownAirdrop';
+import CountdownTimer from '@/components/CountdownTimer';
 
 const inter = Inter({ subsets: ['latin'] })
 
+const CountdownDate = new Date('April 20, 2024 23:59:59 UTC').getTime();
 
 const FramerImage = motion(Image);
-
-const FullCard = ({img, title, description, link, buttonTitle}) => {
-
-  return(
-    <article
-        className='w-full flex items-center justify-between relative rounded-br-2xl
-        rounded-3xl border border-solid border-dark dark:border-light bg-light dark:bg-dark shadow-2xl p-12
-        lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'
-    >
-      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light
-        rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'
-      />
-      
-      <div className='w-1/2 cursor-pointer overflow-hidden ronded-lg lg:w-full'>
-        <FramerImage src={img} alt={title} className='w-full h-auto'
-        whileHover={{scale:1.05}}
-        transition={{duration:0.2}}
-        priority
-        sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 50vw"
-        />
-      </div>
-      <div className='w-full flex flex-col items-start justify-between pl-6'>
-          <h2 className='my-2 w-full text-left text-4xl font-bold'>{title}</h2>
-          <p className='my-2 font-medium text-dark dark:text-light'>{description}</p>
-          <div className='mt-2 flex items-center'>
-            
-            <motion.a href={link} target={"_blank"}
-              whileHover={{y:-2}}
-              whileTap={{scale:0.9}}
-              className="mt-2 flex items-center"
-            >               
-              <Link
-                href={link}
-                target="_blank"
-                className='rounded-lg bg-dark dark:bg-light text-light dark:text-dark p-2 px-6 text-lg font-semibold'
-              > {buttonTitle}</Link>
-            </motion.a>
-          </div>
-      </div>
-    </article>
-  )
-}
 
 export default function Home() {
   return (
@@ -120,12 +78,11 @@ export default function Home() {
                 </Link>
               </div>
 
-              <div className='flex items-center self-center mt-2 lg:self-center'>
-                <CountdownPresale />
-              </div>
-
-              <div className='flex items-center self-center mt-2 lg:self-center'>
-                <CountdownAirdrop />
+              <div className='flex items-center self-center mt-5 lg:self-center'>
+                <div className='flex items-center self-center mr-3 lg:self-center'>
+                  <h1>Presale Ends In</h1>
+                </div>
+                <CountdownTimer countdownDate={CountdownDate} />
               </div>
 
             </div>

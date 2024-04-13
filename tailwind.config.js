@@ -26,7 +26,8 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
-      }, backgroundImage:{
+      },
+      backgroundImage:{
         circularLight:
           "repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#e4f4f4 5px,#e4f4f4 100px)",
         
