@@ -13,8 +13,8 @@ const CustomLink = ({href, title, className=""}) => {
             {title}
 
             <span className={`
-            h-1 rounded-md inline-block bg-dark absolute left-0 -bottom-0.5
-            group-hover:w-full transition-[width] ease duration-300 dark:text-light
+            h-1 rounded-md inline-block bg-primaryDark dark:bg-primary absolute left-0 -bottom-0.5
+            group-hover:w-full transition-[width] ease duration-300 text-primaryDark dark:text-primary
             ${router.asPath === href ? 'w-full h1 rounded-md' : 'w-0'}
             `}
             >
@@ -36,8 +36,8 @@ const CustomMobileLink = ({href, title, className="", toggle}) => {
             {title}
 
             <span className={`
-            h-1 rounded-md inline-block bg-dark absolute left-0 -bottom-0.5
-            group-hover:w-full transition-[width] ease duration-300 dark:text-light
+            h-1 rounded-md inline-block bg-primaryDark dark:bg-primary absolute left-0 -bottom-0.5
+            group-hover:w-full transition-[width] ease duration-300 text-primaryDark dark:text-primary
             ${router.asPath === href ? 'w-full h1 rounded-md' : 'w-0'}
             `}
             >
@@ -65,19 +65,27 @@ const NavBar = () => {
         bg-primary/90 dark:bg-primaryDark/75 rounded-lg backdrop-blur-sm px-8 py-8 z-30
         '>
             
+            <nav className="flex 2xl:pb-3 xl:pb-3 justify-center">
+                    <Logo />
+            </nav>
+
             <buton className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
                 <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
                 <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-00'} `}></span>
                 <span className={`bg-dark hover:bg-light/50 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
             </buton>
             <div className='w-full flex justify-between items-center lg:hidden'>
+                
+                <nav className="flex 2xl:pb-3 xl:pb-3 justify-center">
+                    {/* <Logo /> */}
+                </nav>
+
                 <nav>
-                    <CustomLink href="/" title="Home" className='mr-4'/>
-                    <CustomLink href="#kamanomics" title="Kamanomics" className='mr-4'/>
-                    <CustomLink href="#programs" title="Programs" className='mx-4'/>
-                    <CustomLink href="#roadmap" title="Roadmap" className='mx-4'/>
-                    <CustomLink href="#watch" title="Watch The Meme" className='mx-4'/>
-                    <CustomLink href="#footer" title="Disclaimer" className='mx-4'/>
+                    <CustomLink href="/" title="Home" className='mr-10 xl:mr-5 2xl:mr-7 text-primaryDark dark:text-primary'/>
+                    <CustomLink href="#kamanomics" title="Kamanomics" className='mr-6 xl:mr-3 2xl:mr-4 text-primaryDark dark:text-primary'/>
+                    <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
+                    <CustomLink href="#roadmap" title="Roadmap" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
+                    <CustomLink href="#footer" title="Disclaimer" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
                 </nav>
 
                 <nav className="flex items-center justify-center flex-wrap">
@@ -125,12 +133,8 @@ const NavBar = () => {
                 </nav>
             </div>
             
-            <div className='absolute left-[48.2%] top-2 items-center'>
-                <Logo />
-            </div>
-
         </div>
-
+                        
         {
             isOpen ?
 
@@ -141,15 +145,14 @@ const NavBar = () => {
             bg-primary/90 dark:bg-primaryDark/75 rounded-lg backdrop-blur-md py-32
             '>
                 <nav className='flex items-center flex-col justify-center'>
-                    <CustomMobileLink href="/" title="Home" className='' toggle={handleClick} />
-                    <CustomMobileLink href="#kamanomics" title="Kamanomics" className='' toggle={handleClick} />
-                    <CustomMobileLink href="#programs" title="Programs" className='' toggle={handleClick} />
-                    <CustomMobileLink href="#roadmap" title="Roadmap" className='' toggle={handleClick} />
-                    <CustomMobileLink href="#watch" title="Watch The Meme" className='' toggle={handleClick} />
-                    <CustomMobileLink href="#footer" title="Disclaimer" className='' toggle={handleClick} />
+                    <CustomMobileLink href="/" title="Home" className='text-primaryDark dark:text-primary' toggle={handleClick} />
+                    <CustomMobileLink href="#kamanomics" title="Kamanomics" className='text-primaryDark dark:text-primary' toggle={handleClick} />
+                    <CustomMobileLink href="#programs" title="Programs" className='text-primaryDark dark:text-primary' toggle={handleClick} />
+                    <CustomMobileLink href="#roadmap" title="Roadmap" className='text-primaryDark dark:text-primary' toggle={handleClick} />
+                    <CustomMobileLink href="#footer" title="Disclaimer" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                 </nav>
 
-                <nav className="flex items-center justify-center flex-wra mt-2">
+                <nav className="flex items-center justify-center flex-wrap mt-2">
                     
                     <motion.a href="https://twitter.com/kamawinga_lol" target={"_blank"}
                     whileHover={{y:-2}}
