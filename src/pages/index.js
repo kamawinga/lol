@@ -5,7 +5,6 @@ import Layout from '@/components/Layout';
 import Link from 'next/link';
 import {LinkArrow} from '../components/Icons';
 import profilePic from "../../public/images/profile/kamaprofile.png";
-import cardPic from "../../public/images/profile/kama.png";
 import AnimatedText from '../components/AnimatedText';
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect';
@@ -14,7 +13,6 @@ import Programs from '@/components/Programs';
 import Kamanomics from '@/components/Kamanomics';
 import { motion } from 'framer-motion';
 import YouTubeVideo from '@/components/YouTubeVideo';
-import allocPic from "../../public/images/allocations.png";
 
 const inter = Inter({ subsets: ['latin'] })
 
