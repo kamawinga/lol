@@ -3,6 +3,14 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon"
 import LiIconDone from "./LiIconDone"
 import LiIconProgress from "./LiIconProgress"
+import CountdownTimer from './CountdownTimer';
+
+const airdropCountdownDate = new Date('April 30, 2024 23:59:59 UTC').getTime();
+const airdropCountdownTitle = <h1 className='' >Airdrop&nbsp;</h1>;
+
+const presaleCountdownDate = new Date('April 21, 2024 23:59:59 UTC').getTime();
+const presaleCountdownTitle = <h1 className='' >Presale&nbsp;</h1>;
+
 
 const Details = ({ status, time, title, info}) => {
     const ref = useRef(null)
@@ -74,7 +82,7 @@ const ProgressDetails = ({ status, time, title, info}) => {
                 <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
                     {title}
                 </h3>
-                <h3 className='capitalize font-bold text-primary dark:text-primary text-l sm:text-lg xs:text-sm'>
+                <h3 className='capitalize font-bold text-kamaYellowDark dark:text-kamaYellow text-l sm:text-lg xs:text-sm'>
                     {status}
                 </h3>
                 <span className='capitalize font-medium text-primaryDark/75 dark:text-light/75 sm:text-lg xs:text-sm'>
@@ -130,19 +138,35 @@ const Roadmap = () => {
                 info="Build and deploy the $KAMA Bot for Airdrop, Presale, Referrals and Bonuses."
                 />
                 
+
                 <ProgressDetails 
-                title="Airdrop Event"
-                status="PROGRESS"
-                time="April 15th, 2024 - April 30th, 2024 [23:59:59 UTC]"
-                info="Ongoing Airdrop Event."
+                    title="Airdrop Event"
+                    status="PROGRESS"
+                    time="April 15th, 2024 - April 30th, 2024 [23:59:59 UTC]"
+                    info="Ongoing Airdrop Event."
                 />
-                
+
+                <div className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between  md:w-[80-%]'>
+                    <CountdownTimer 
+                        countdownDate={airdropCountdownDate}
+                        countdownTitle={airdropCountdownTitle}
+                    />
+                </div>
+
+
                 <ProgressDetails 
                 title="Presale Event"
                 status="PROGRESS"
                 time="April 15th, 2024 - April 21st, 2024 [23:59:59 UTC]"
                 info="Ongoing Presale Event."
                 />
+
+                <div className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between  md:w-[80-%]'>
+                    <CountdownTimer 
+                        countdownDate={presaleCountdownDate}
+                        countdownTitle={presaleCountdownTitle}
+                    />
+                </div>
                 
                 <Details 
                 title="Initiate Marketing Campaign"
@@ -171,6 +195,7 @@ const Roadmap = () => {
                 time="May 5th, 2024"
                 info="Distribute the Airdrop & Bonus allocations."
                 />
+                
                 {/* 
                 <Details 
                 title="Yield Farming"
