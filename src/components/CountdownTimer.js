@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const CountdownTimer = ({countdownDate}) => {
+const CountdownTimer = ({countdownDate, countdownTitle}) => {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
@@ -28,43 +28,43 @@ const CountdownTimer = ({countdownDate}) => {
   }, []);
 
   return (
-    <div className='items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-radialSunDark dark:border-primary' >
-      <div className='flex pb-2 items-center justify-center font-bold text-3xl text-primaryDark dark:text-primary'>
-        Presale Closes In...
+    <div className='items-center justify-center bg-radialMoonDark dark:bg-radialMoonLight p-4 rounded-2xl border border-solid border-2 border-primaryDark dark:border-primaryDark' >
+      <div className='flex pb-2 items-center justify-center font-bold text-3xl text-primary dark:text-dark'>
+        {countdownTitle} Closes In...
       </div>
-      <div className="grid grid-cols-4 gap-4 items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-radialSunDark dark:border-primary">
-        <div className="rounded text-center bg-radialSunDark dark:bg-primary w-20">
-          <div className='items-center justify-center font-bold text-3xl text-primary dark:text-radialSunDark' >
+      <div className="grid grid-cols-4 gap-4 items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-primaryDark dark:border-primaryDark">
+        <div className="rounded text-center bg-radialSunDark dark:bg-radialMoonLight w-20">
+          <div className='items-center justify-center font-bold text-3xl text-primary dark:text-dark' >
             {countdown.days}
           </div>
-          <div className='items-center justify-center font-bold text-base text-primary dark:text-radialSunDark' >
+          <div className='items-center justify-center font-bold text-base text-primary dark:text-dark' >
             Days
           </div>
         </div>
 
-        <div className="rounded text-center bg-radialSunDark dark:bg-primary">
-          <div className='items-center justify-center font-bold text-3xl text-primary dark:text-radialSunDark' >
+        <div className="rounded text-center bg-radialSunDark dark:bg-radialMoonLight">
+          <div className='items-center justify-center font-bold text-3xl text-primary dark:text-dark' >
             {countdown.hours}
           </div>
-          <div className='items-center justify-center font-bold text-base text-primary dark:text-radialSunDark' >
+          <div className='items-center justify-center font-bold text-base text-primary dark:text-dark' >
             Hours
           </div>
         </div>
 
-        <div className="rounded text-center bg-radialSunDark dark:bg-primary">
-          <div className='items-center justify-center font-bold text-3xl text-primary dark:text-radialSunDark' >
+        <div className="rounded text-center bg-radialSunDark dark:bg-radialMoonLight">
+          <div className='items-center justify-center font-bold text-3xl text-primary dark:text-dark' >
             {countdown.minutes}
           </div>
-          <div className='items-center justify-center font-bold text-base text-primary dark:text-radialSunDark' >
+          <div className='items-center justify-center font-bold text-base text-primary dark:text-dark' >
             Minutes
           </div>
         </div>
 
-        <div className="rounded text-center bg-radialSunDark dark:bg-primary">
-          <div className='items-center justify-center font-bold text-3xl text-primary dark:text-radialSunDark' >
+        <div className="rounded text-center bg-radialSunDark dark:bg-radialMoonLight">
+          <div className='items-center justify-center font-bold text-3xl text-primary dark:text-dark' >
             {countdown.seconds}
           </div>
-          <div className='items-center justify-center font-bold text-base text-primary dark:text-radialSunDark' >
+          <div className='items-center justify-center font-bold text-base text-primary dark:text-dark' >
             Seconds
           </div>
         </div>

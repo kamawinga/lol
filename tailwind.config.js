@@ -20,9 +20,12 @@ module.exports = {
         dark: "#1b2b3b", // Kama Dark
         light: "#e4f4f4", // Kama Light
         primary: "#F6CD46", //  - Kama Yellow
+        kamaYellowDark: "#F6CD46", //  - Kama Yellow
         primaryDark: "#843FC5", // Kama Purple
         kamaGreen: "#45f383", // Kama Green
-        kamaGreenDark: "#09C64F" // Kama Green Dark
+        kamaGreenDark: "#09C64F", // Kama Green Dark
+        kamaYellow: "#FFDE69", //  - Kama Yellow
+        kamaYellowDark: "#E2B136", //  - Kama Yellow
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
@@ -30,6 +33,10 @@ module.exports = {
       backgroundImage:{
         radialShadeLight:
         "radial-gradient(circle, rgba(241,223,233,1) 0%, rgba(206,229,241,1) 25%, rgba(197,227,233,1) 50%, rgba(202,227,238,1) 75%, rgba(238,222,238,1) 100%)",
+        radialMoonLight:
+        "radial-gradient(circle, rgba(212,155,197,1) 0%, rgba(96,141,162,1) 25%, rgba(119,181,193,1) 50%, rgba(157,203,223,1) 75%, rgba(194,162,213,1) 100%)",
+        radialMoonDark:
+        "radial-gradient(circle, rgba(103,27,84,1) 0%, rgba(22,70,91,1) 25%, rgba(11,72,83,1) 50%, rgba(39,80,99,1) 75%, rgba(64,30,84,1) 100%)",
         radialSunLight:
         "radial-gradient(circle, rgba(246,191,231,1) 0%, rgba(206,229,241,1) 25%, rgba(197,227,233,1) 50%, rgba(202,227,238,1) 75%, rgba(226,193,246,1) 100%)",
         radialSunDark:
