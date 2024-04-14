@@ -29,7 +29,7 @@ const CountdownTimer = ({countdownDate}) => {
 
   return (
     <div className='items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-radialSunDark dark:border-primary' >
-      <div className='flex pb-2 items-center justify-center font-bold text-3xl text-primaryDark dark:text-radialSun'>
+      <div className='flex pb-2 items-center justify-center font-bold text-3xl text-primaryDark dark:text-primary'>
         Presale Closes In...
       </div>
       <div className="grid grid-cols-4 gap-4 items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-radialSunDark dark:border-primary">
