@@ -61,10 +61,10 @@ const NavBar = () => {
     className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative'
     >
         <div className='
-        w-[95%] h-[10.5%] flex justify-between items-center fixed top-10 left-1/2 -translate-x-1/2 -translate-y-1/2
+        w-[95%] h-[10.5%] sm:h-[7.5%] lg:h-[8.5%] md:h-[8%] 2xl:h-[8%] flex justify-between items-center fixed top-10 left-1/2 -translate-x-1/2 -translate-y-1/2
         bg-light/40 dark:bg-primaryDark/40 rounded-lg backdrop-blur-sm px-8 py-8 z-30
         '>
-            
+          
             <nav className="flex 2xl:pb-3 xl:pb-3 justify-center">
                     <Logo />
             </nav>
