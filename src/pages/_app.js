@@ -22,14 +22,16 @@ export default function App({ Component, pageProps }) {
       </Head>
       <main className={`${montserrat.variable} font-mont bg-radialSunLight dark:bg-radialSunDark w-full min-h-screen`}>
         <NavBar />
+
         <AnimatePresence mode = "wait">
           <Component key= {router.asPath} {...pageProps} />
         </AnimatePresence>
-        <ScrollToTop />
         
         <div id='footer'>
           <Footer />
         </div>
+
+        <ScrollToTop />
       </main>
     </>
   );
