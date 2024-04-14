@@ -131,59 +131,59 @@ const Roadmap = () => {
                 />
                 
                 <ProgressDetails 
-                title="Airdrop"
+                title="Airdrop Event"
                 status="PROGRESS"
-                time="April 13th, 2024 - April 24th, 2024 [23:59:59 UTC]"
+                time="April 15th, 2024 - April 30th, 2024 [23:59:59 UTC]"
                 info="Ongoing Airdrop Event."
                 />
                 
                 <ProgressDetails 
-                title="Presale"
+                title="Presale Event"
                 status="PROGRESS"
-                time="April 13th, 2024 - April 19th, 2024 [23:59:59 UTC]"
+                time="April 15th, 2024 - April 21st, 2024 [23:59:59 UTC]"
                 info="Ongoing Presale Event."
                 />
                 
                 <Details 
                 title="Initiate Marketing Campaign"
                 status=""
-                time="April 13th, 2024"
+                time="April 15th, 2024"
                 info="Start Marketing Campaign."
                 />
                 
                 <Details 
                 title="Launch $KAMA, Add Liquidity and Burn LP Token"
                 status=""
-                time="April 19th, 2024 (BTC Halving)"
+                time="April 21st, 2024"
                 info="Add Liquidity to the DEX and burn the LP token."
                 />
                 
                 <Details 
                 title="Presale Token Distribution"
                 status=""
-                time="April 21st, 2024 - 8:00 PM (UTC)"
+                time="April 22nd, 2024"
                 info="Distribute the token allocation of presale participants."
                 />
                 
                 <Details 
                 title="Airdrop & Bonuses Distribution"
                 status=""
-                time="April 28th, 2024"
+                time="May 5th, 2024"
                 info="Distribute the Airdrop & Bonus allocations."
                 />
-
+                {/* 
                 <Details 
                 title="Yield Farming"
                 status=""
-                time="April 29th, 2024"
+                time="May 1st, 2024"
                 info="Create yield farm for those providing Liquidity to the pool. Farm 1% of Suply daily for 7 days."
                 />
-                
+                 */}
                 <Details 
                 title="Token Burning"
                 status=""
-                time="May 7th, 2024 - May 13th, 2024"
-                info="Burn $KAMA - Burn 7% over the period of 7 days (1% Burn per day)."
+                time="May 9th, 2024 - May 18th, 2024"
+                info="Burn $KAMA - Burn 10% over the period of 10 days (1% Burn per day)."
                 />
             </ul>
         </div>
