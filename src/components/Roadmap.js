@@ -103,8 +103,8 @@ const Roadmap = () => {
         }
     )
   return (
-    <div className='my-64'>
-        <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
+    <div className='my-20'>
+        <h2 className='font-bold text-8xl mb-20 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
         Roadmap
         </h2>
 
@@ -118,24 +118,38 @@ const Roadmap = () => {
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <DoneDetails 
-                title="Branding, Website and Socials"
+                title="Branding"
                 status="DONE"
                 time=""
-                info="Create branding, build website, launch X account, launch Telegram channel and group."
+                info="Establish branding, logo, image content."
                 />
 
                 <DoneDetails 
-                title="Deploy and Renounce Contract"
+                title="Website"
                 status="DONE"
                 time=""
-                info="Create and deploy the SPL token contract and renounce ownership."
+                info="Build and deploy the website."
+                />
+
+                <DoneDetails 
+                title="Socials"
+                status="DONE"
+                time=""
+                info="Create the socials, X, Telegram channel and group."
+                />
+
+                <DoneDetails 
+                title="Telegram Bot"
+                status="DONE"
+                time=""
+                info="Build and deploy the $KAMA Telegram Bot for Airdrop and Referrals."
                 />
                 
                 <DoneDetails 
-                title="Build and Deploy Telegram Bot"
+                title="Initiate Marketing Campaign"
                 status="DONE"
-                time=""
-                info="Build and deploy the $KAMA Bot for Airdrop, Presale, Referrals and Bonuses."
+                time="April 15th, 2024"
+                info="Start Marketing Campaign."
                 />
                 
 
@@ -168,18 +182,19 @@ const Roadmap = () => {
                     />
                 </div>
                 
+
                 <Details 
-                title="Initiate Marketing Campaign"
+                title="Deploy Token"
                 status=""
-                time="April 15th, 2024"
-                info="Start Marketing Campaign."
+                time="April 21st, 2024"
+                info="Create and deploy the SPL token, revoke mint and renounce contract ownership."
                 />
                 
                 <Details 
-                title="Launch $KAMA, Add Liquidity and Burn LP Token"
+                title="DEX Launch"
                 status=""
                 time="April 21st, 2024"
-                info="Add Liquidity to the DEX and burn the LP token."
+                info="Add Liquidity ON DEX and burn the LP token."
                 />
                 
                 <Details 
@@ -195,17 +210,9 @@ const Roadmap = () => {
                 time="May 5th, 2024"
                 info="Distribute the Airdrop & Bonus allocations."
                 />
-                
-                {/* 
+
                 <Details 
-                title="Yield Farming"
-                status=""
-                time="May 1st, 2024"
-                info="Create yield farm for those providing Liquidity to the pool. Farm 1% of Suply daily for 7 days."
-                />
-                 */}
-                <Details 
-                title="Token Burning"
+                title="Daily Token Burn"
                 status=""
                 time="May 9th, 2024 - May 18th, 2024"
                 info="Burn $KAMA - Burn 10% over the period of 10 days (1% Burn per day)."
