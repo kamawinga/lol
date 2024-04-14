@@ -16,7 +16,7 @@ import CountdownTimer from '@/components/CountdownTimer';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const CountdownDate = new Date('April 20, 2024 23:59:59 UTC').getTime();
+const CountdownDate = new Date('April 21, 2024 23:59:59 UTC').getTime();
 
 const FramerImage = motion(Image);
 
