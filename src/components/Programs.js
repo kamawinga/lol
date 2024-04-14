@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import presalcommunityBonusesPic from "../../public/images/presale.png";
 import airdropPic from "../../public/images/airdrop.png";
 import referralsPic from "../../public/images/referrals.png";
-import communityBonusesPic from "../../public/images/community-bonuses.png";
+import communityBonusesPic from "../../public/images/community-competitions.png";
 import firstBuyersBonusesPic from "../../public/images/first-buyers-bonuses.png";
 import biggestBuyersBonusesPic from "../../public/images/biggest-buyers-bonuses.png";
 import Image from 'next/image';
@@ -33,7 +33,7 @@ const Programs = () => {
                     <h1>Presale</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>30% of $KAMA supply for Presale.</h1>
+                    <h1>30% of $KAMA for Presale.</h1>
                     <h1>Open for Only 7 Days.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
@@ -57,11 +57,11 @@ const Programs = () => {
                     <h1>Airdrop</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>4% of $KAMA supply for Top 2,580</h1>
-                    <h1>participants with he most refferals.</h1>
+                    <h1>103.2M $KAMA (4%) to Top</h1>
+                    <h1>2,580 Highest Refferals.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>Alloc. relative to referrals share.</p>
+                    <p>40,000 $KAMA Each</p>
                 </div>
             </div>
 
@@ -81,11 +81,11 @@ const Programs = () => {
                     <h1>Referrals</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>1% of $KAMA supply for Top 258</h1>
-                    <h1>accounts with he most refferals.</h1>
+                    <h1>25.8M $KAMA to Top 258</h1>
+                    <h1>Highest Refferals.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>Alloc. relative to referrals share.</p>
+                    <p>100,000 $KAMA Each</p>
                 </div>
             </div>
         </div>
@@ -105,14 +105,14 @@ const Programs = () => {
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Community Bonuses</h1>
+                    <h1>Competitions</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>1% of $KAMA supply for 258</h1>
-                    <h1>active community contributors.</h1>
+                    <h1>25.8M $KAMA (1%) to</h1>
+                    <h1>Community Chosen Winners.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>100,000 $KAMA Each.</p>
+                    <p>Weekly Winners</p>
                 </div>
             </div>
 
@@ -129,14 +129,14 @@ const Programs = () => {
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>First Buyers Bonuses</h1>
+                    <h1>1st Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>0.5% of $KAMA supply for</h1>
-                    <h1>the First 258 Presale Buyers.</h1>
+                    <h1>12.9M $KAMA to the</h1>
+                    <h1>First 516 Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                <p>Alloc. relative to presale share.</p>
+                    <p>25,000 $KAMA Each</p>
                 </div>
             </div>
 
@@ -153,14 +153,14 @@ const Programs = () => {
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Biggest Buyers Bonuses</h1>
+                    <h1>Max Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>0.5% of $KAMA supply for</h1>
-                    <h1>the 258 Biggest Presale Buyers.</h1>
+                    <h1>12.9M $KAMA to 258</h1>
+                    <h1>Biggest Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                <p>Alloc. relative to presale share.</p>
+                    <p>50,000 $KAMA Each</p>
                 </div>
             </div>
         </div>
