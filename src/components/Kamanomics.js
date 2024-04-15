@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import allocPic from "../../public/images/allocation.png";
+import allocPic from "../../public/images/allocations.png";
 
 const Kamanomics = () => {
   return (
