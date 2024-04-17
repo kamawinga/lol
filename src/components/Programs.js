@@ -34,10 +34,10 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>30% of $KAMA for Presale.</h1>
-                    <h1>Open for Only 7 Days.</h1>
+                    <h1>On $KAMA Presale Bot</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>Min. 0.1 SOL - 10 SOL Max.</p>
+                    <p>Minimum 0.5</p>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>25.8M $KAMA to Top 258</h1>
-                    <h1>Highest Referrers.</h1>
+                    <h1>Presale Referrers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
                     <p>100,000 $KAMA Each</p>
@@ -105,14 +105,14 @@ const Programs = () => {
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Competitions</h1>
+                    <h1>Creators Competition</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>25.8M $KAMA (1%) to</h1>
                     <h1>Community Chosen Winners.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>Weekly Winners</p>
+                    <p>Funny Meme Creators</p>
                 </div>
             </div>
 
@@ -133,10 +133,10 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>12.9M $KAMA to the</h1>
-                    <h1>First 516 Presale Buyers.</h1>
+                    <h1>First 258 Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>25,000 $KAMA Each</p>
+                    <p>50,000 $KAMA Each</p>
                 </div>
             </div>
 
