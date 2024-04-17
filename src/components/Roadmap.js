@@ -148,7 +148,7 @@ const Roadmap = () => {
                 <DoneDetails 
                 title="Initiate Marketing Campaign"
                 status="DONE"
-                time="April 17th, 2024"
+                time=""
                 info="Start Marketing Campaign."
                 />
                 
@@ -156,7 +156,7 @@ const Roadmap = () => {
                 <ProgressDetails 
                     title="Airdrop Event"
                     status="PROGRESS"
-                    time="April 17th, 2024 - May 5th, 2024 [23:59:59 UTC]"
+                    time=""
                     info="Ongoing Airdrop Event."
                 />
 
@@ -171,7 +171,7 @@ const Roadmap = () => {
                 <ProgressDetails 
                 title="Presale Event"
                 status="PROGRESS"
-                time="April 17th, 2024 - April 22nd, 2024 [23:59:59 UTC]"
+                time=""
                 info="Ongoing Presale Event."
                 />
 
@@ -191,30 +191,37 @@ const Roadmap = () => {
                 />
                 
                 <Details 
-                title="Liquidity Launch"
-                status=""
-                time="April 22nd, 2024"
-                info="Add Liquidity ON DEX and burn the LP token."
-                />
-                
-                <Details 
                 title="Presale Token Distribution"
                 status=""
-                time="April 23th, 2024"
+                time="" // April 23th, 2024
                 info="Distribute the token allocation of presale participants."
                 />
                 
                 <Details 
-                title="Airdrop & Bonuses Distribution"
+                title="Liquidity Launch"
                 status=""
-                time="May 10th, 2024"
-                info="Distribute the Airdrop & Bonus allocations."
+                time=""
+                info="Add Liquidity ON DEX and burn the LP token."
+                />
+                
+                <Details 
+                title="Airdrop Distribution"
+                status=""
+                time=""
+                info="Validate and Distribute the Airdrop Bonus allocations."
+                />
+
+                <Details 
+                title="Bonuses Distribution"
+                status=""
+                time=""
+                info="Validate and Distribute the Bonus allocations."
                 />
 
                 <Details 
                 title="Daily Token Burn"
                 status=""
-                time="May 11th, 2024 - May 21st, 2024"
+                time="" // May 11th, 2024 - May 21st, 2024
                 info="Burn $KAMA - Burn 11% over the period of 11 days (1% Burn per day)."
                 />
             </ul>
