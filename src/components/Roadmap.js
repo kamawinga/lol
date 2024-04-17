@@ -5,10 +5,10 @@ import LiIconDone from "./LiIconDone"
 import LiIconProgress from "./LiIconProgress"
 import CountdownTimer from './CountdownTimer';
 
-const airdropCountdownDate = new Date('April 30, 2024 23:59:59 UTC').getTime();
+const airdropCountdownDate = new Date('May 3, 2024 23:59:59 UTC').getTime();
 const airdropCountdownTitle = <h1 className='' >Airdrop&nbsp;</h1>;
 
-const presaleCountdownDate = new Date('April 21, 2024 23:59:59 UTC').getTime();
+const presaleCountdownDate = new Date('April 24, 2024 23:59:59 UTC').getTime();
 const presaleCountdownTitle = <h1 className='' >Presale&nbsp;</h1>;
 
 
@@ -148,7 +148,7 @@ const Roadmap = () => {
                 <DoneDetails 
                 title="Initiate Marketing Campaign"
                 status="DONE"
-                time="April 15th, 2024"
+                time="April 18th, 2024"
                 info="Start Marketing Campaign."
                 />
                 
@@ -156,7 +156,7 @@ const Roadmap = () => {
                 <ProgressDetails 
                     title="Airdrop Event"
                     status="PROGRESS"
-                    time="April 15th, 2024 - April 30th, 2024 [23:59:59 UTC]"
+                    time="April 18th, 2024 - May 3rd, 2024 [23:59:59 UTC]"
                     info="Ongoing Airdrop Event."
                 />
 
@@ -171,7 +171,7 @@ const Roadmap = () => {
                 <ProgressDetails 
                 title="Presale Event"
                 status="PROGRESS"
-                time="April 15th, 2024 - April 21st, 2024 [23:59:59 UTC]"
+                time="April 18th, 2024 - April 24th, 2024 [23:59:59 UTC]"
                 info="Ongoing Presale Event."
                 />
 
@@ -186,36 +186,36 @@ const Roadmap = () => {
                 <Details 
                 title="Token Generation Event"
                 status=""
-                time="April 21st, 2024"
+                time="April 24th, 2024"
                 info="Create and deploy the SPL token, revoke mint and renounce contract ownership."
                 />
                 
                 <Details 
                 title="Liquidity Launch"
                 status=""
-                time="April 21st, 2024"
+                time="April 24th, 2024"
                 info="Add Liquidity ON DEX and burn the LP token."
                 />
                 
                 <Details 
                 title="Presale Token Distribution"
                 status=""
-                time="April 22nd, 2024"
+                time="April 25th, 2024"
                 info="Distribute the token allocation of presale participants."
                 />
                 
                 <Details 
                 title="Airdrop & Bonuses Distribution"
                 status=""
-                time="May 5th, 2024"
+                time="May 10th, 2024"
                 info="Distribute the Airdrop & Bonus allocations."
                 />
 
                 <Details 
                 title="Daily Token Burn"
                 status=""
-                time="May 9th, 2024 - May 18th, 2024"
-                info="Burn $KAMA - Burn 10% over the period of 10 days (1% Burn per day)."
+                time="May 10th, 2024 - May 20th, 2024"
+                info="Burn $KAMA - Burn 11% over the period of 11 days (1% Burn per day)."
                 />
             </ul>
         </div>
