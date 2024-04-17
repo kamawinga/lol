@@ -186,7 +186,7 @@ const Roadmap = () => {
                 <Details 
                 title="Token Generation Event"
                 status=""
-                time="April 22nd, 2024"
+                time="" // April 22nd, 2024
                 info="Create and deploy the SPL token, revoke mint and renounce contract ownership."
                 />
                 
