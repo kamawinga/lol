@@ -8,7 +8,7 @@ import CountdownTimer from './CountdownTimer';
 const airdropCountdownDate = new Date('May 3, 2024 23:59:59 UTC').getTime();
 const airdropCountdownTitle = <h1 className='' >Airdrop&nbsp;</h1>;
 
-const presaleCountdownDate = new Date('April 24, 2024 23:59:59 UTC').getTime();
+const presaleCountdownDate = new Date('April 20, 2024 23:59:59 UTC').getTime();
 const presaleCountdownTitle = <h1 className='' >Presale&nbsp;</h1>;
 
 
@@ -156,7 +156,7 @@ const Roadmap = () => {
                 <ProgressDetails 
                     title="Airdrop Event"
                     status="PROGRESS"
-                    time="April 18th, 2024 - May 3rd, 2024 [23:59:59 UTC]"
+                    time="April 17th, 2024 - May 3rd, 2024 [23:59:59 UTC]"
                     info="Ongoing Airdrop Event."
                 />
 
@@ -171,7 +171,7 @@ const Roadmap = () => {
                 <ProgressDetails 
                 title="Presale Event"
                 status="PROGRESS"
-                time="April 18th, 2024 - April 24th, 2024 [23:59:59 UTC]"
+                time="April 17th, 2024 - April 20th, 2024 [23:59:59 UTC]"
                 info="Ongoing Presale Event."
                 />
 
