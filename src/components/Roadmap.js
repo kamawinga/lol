@@ -184,14 +184,14 @@ const Roadmap = () => {
                 
 
                 <Details 
-                title="Deploy Token"
+                title="Token Generation Event"
                 status=""
                 time="April 21st, 2024"
                 info="Create and deploy the SPL token, revoke mint and renounce contract ownership."
                 />
                 
                 <Details 
-                title="DEX Launch"
+                title="Liquidity Launch"
                 status=""
                 time="April 21st, 2024"
                 info="Add Liquidity ON DEX and burn the LP token."
