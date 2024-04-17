@@ -16,7 +16,7 @@ import CountdownTimer from '@/components/CountdownTimer';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const CountdownDate = new Date('April 20, 2024 23:59:59 UTC').getTime();
+const CountdownDate = new Date('April 22, 2024 23:59:59 UTC').getTime();
 const CountdownTitle = <h1 className='' >Presale&nbsp;</h1>;
 const FramerImage = motion(Image);
 
