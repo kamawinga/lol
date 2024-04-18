@@ -58,7 +58,7 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>103.2M $KAMA (4%) to Top</h1>
-                    <h1>2,580 Highest Referrers.</h1>
+                    <h1>2,580 Airdrop Referrers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
                     <p>40,000 $KAMA Each</p>
