@@ -30,11 +30,11 @@ export default function Home() {
       <TransitionEffect />
       <main className='flex items-center text-dark w-full main-h-screen dark:text-light'>
         
-        <Layout className='pt-12 md:p-8 md:pt-8 sm:pt-8 lg:pt-8 xl:pt-8'>
+        <Layout className='md:p-8 xs:pt-8 sm:pt-8 pt-12 md:pt-8 lg:pt-8 xl:pt-15 2xl:pt-15'>
 
-          <div className="flex items-center justify-between w-full lg:flex-col">
+          <div className="flex items-center justify-between w-full lg:flex-col xs:pt-8 sm:pt-8 pt-12 md:pt-8 lg:pt-8 xl:pt-15 2xl:pt-15">
             
-            <div className='w-1/2 md:w-full'>
+            <div className='w-[47%]'>
               <Image src={profilePic} alt="$KAMA Memecoin" className='w-full h-auto lg:w-full md:inline-block md:w-full'
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 50vw"
