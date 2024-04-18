@@ -33,8 +33,8 @@ const Programs = () => {
                     <h1>Presale</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>30% of $KAMA for Presale.</h1>
-                    <h1>On $KAMA Presale Bot</h1>
+                    <h1>30% of $KAMA Supply.</h1>
+                    <h1>Presale on X/Twitter</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
                     <p>Minimum 0.5 SOL</p>
@@ -82,7 +82,7 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>25.8M $KAMA to Top 258</h1>
-                    <h1>Presale Referrers.</h1>
+                    <h1>Airdrop Referrers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
                     <p>100,000 $KAMA Each</p>
@@ -133,10 +133,10 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>12.9M $KAMA to the</h1>
-                    <h1>First 258 Presale Buyers.</h1>
+                    <h1>First 100 Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>50,000 $KAMA Each</p>
+                    <p>129,000 $KAMA Each</p>
                 </div>
             </div>
 
@@ -156,11 +156,11 @@ const Programs = () => {
                     <h1>Max Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>12.9M $KAMA to 258</h1>
+                    <h1>12.9M $KAMA to 100</h1>
                     <h1>Biggest Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>50,000 $KAMA Each</p>
+                    <p>129,000 $KAMA Each</p>
                 </div>
             </div>
         </div>
