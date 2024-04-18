@@ -63,7 +63,7 @@ const NavBar = () => {
         <div className='
         w-[95%] h-[10.5%] mt-10 sm:mt-5 lg:mt-7 2xl:mt-8 sm:h-[7.5%] lg:h-[8.5%] md:h-[8%] 2xl:h-[8%] 
         flex justify-between items-center fixed top-10 left-1/2 -translate-x-1/2 -translate-y-1/2
-        bg-primaryDark/40 dark:bg-primary/40 rounded-lg backdrop-blur-sm px-8 py-8 z-30
+        bg-primaryDark/40 dark:bg-primaryDark/40 rounded-lg backdrop-blur-sm px-8 py-8 z-30
         '>
           
             <nav className="flex pb-4 2xl:pb-3 xl:pb-3 justify-center">
