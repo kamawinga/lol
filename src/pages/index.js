@@ -13,10 +13,11 @@ import Programs from '@/components/Programs';
 import Kamanomics from '@/components/Kamanomics';
 import { motion } from 'framer-motion';
 import CountdownTimer from '@/components/CountdownTimer';
+import Gallery from '@/components/Gallery';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const CountdownDate = new Date('April 22, 2024 23:59:59 UTC').getTime();
+const CountdownDate = new Date('April 26, 2024 23:59:59 UTC').getTime();
 const CountdownTitle = <h1 className='' >Presale&nbsp;</h1>;
 const FramerImage = motion(Image);
 
@@ -56,7 +57,7 @@ export default function Home() {
               </p>
 
               <div className='flex items-center self-center mt-2 lg:self-center'>
-                <Link href="https://t.me/kama_presale_bot" target={"_blank"}
+                <Link href="https://x.com/kamawinga_lol" target={"_blank"}
                 className="flex items-center bg-primary text-primaryDark p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-primaryDark hover:text-primary border-2 border-solid border-primaryDark hover:border-primary
                 dark:bg-primary dark:text-primaryDark hover:dark:bg-primaryDark hover:dark:text-primary dark:border-primaryDark hover:dark:border-primary
@@ -94,6 +95,10 @@ export default function Home() {
 
           <div id='programs'>
             <Programs/> 
+          </div>
+
+          <div id='gallery'>
+            <Gallery/> 
           </div>
 
           <div id='roadmap'>
