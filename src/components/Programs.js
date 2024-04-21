@@ -132,11 +132,11 @@ const Programs = () => {
                     <h1>1st Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>12.9M $KAMA to First</h1>
-                    <h1>258 Presale Buyers.</h1>
+                    <h1>12.9M $KAMA to the</h1>
+                    <h1>First 100 Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>50,000 $KAMA Each</p>
+                    <p>129,000 $KAMA Each</p>
                 </div>
             </div>
 
@@ -156,11 +156,11 @@ const Programs = () => {
                     <h1>Max Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>12.9M $KAMA to 258</h1>
+                    <h1>12.9M $KAMA to 100</h1>
                     <h1>Biggest Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>50,000 $KAMA Each</p>
+                    <p>129,000 $KAMA Each</p>
                 </div>
             </div>
         </div>

@@ -173,7 +173,7 @@ const Kamanomics = () => {
                     <h1>Presale</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                <h1>Presale for liquidity</h1>
+                <h1>70% of raise for LP</h1>
                 </div>
             </div>
 
