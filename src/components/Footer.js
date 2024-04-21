@@ -102,7 +102,9 @@ const Footer = () => {
                 undertaken by users within or in relation to the $KAMA community. By purchasing $KAMA and/or 
                 participating in the $KAMA community and its related applications and activities, you are 
                 agreeing that you have seen this disclaimer and acknowledge the uselessness of the memecoin 
-                and agree to bear all the risks associated with the use and/or purchase of a memecoin.
+                and agree to bear all the risks associated with the use and/or purchase of a memecoin. 
+                Moreover, 30% of the Raised SOL from Presale will go to the Team and Marketing while the remainder(70%) 
+                will be added to LP paired with 40% of $KAMA Supply as written above in Tokenomics and Roadmap.
               </p>
             </div>
         </Layout>
