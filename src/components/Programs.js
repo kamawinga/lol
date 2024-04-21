@@ -33,11 +33,11 @@ const Programs = () => {
                     <h1>Presale</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>30% of $KAMA for Presale.</h1>
-                    <h1>On $KAMA Presale Bot</h1>
+                    <h1>30% of $KAMA for</h1>
+                    <h1>Presale On X/Twitter</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>Minimum 0.5 SOL</p>
+                    <p>Minimum 0.3 SOL</p>
                 </div>
             </div>
 
@@ -57,11 +57,11 @@ const Programs = () => {
                     <h1>Airdrop</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>103.2M $KAMA (4%) to Top</h1>
-                    <h1>2,580 Airdrop Referrers.</h1>
+                    <h1>2,580 Random users</h1>
+                    <h1>with min. 3 referrals.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>40,000 $KAMA Each</p>
+                    <p>50,000 $KAMA Each</p>
                 </div>
             </div>
 
@@ -81,8 +81,8 @@ const Programs = () => {
                     <h1>Referrals</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>25.8M $KAMA to Top 258</h1>
-                    <h1>Presale Referrers.</h1>
+                    <h1>25.8M $KAMA to</h1>
+                    <h1>Top 258 Referrers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
                     <p>100,000 $KAMA Each</p>
@@ -105,14 +105,14 @@ const Programs = () => {
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Creators Competition</h1>
+                    <h1>Competition</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>25.8M $KAMA (1%) to</h1>
+                    <h1>25.8M $KAMA to</h1>
                     <h1>Community Chosen Winners.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>Funny Meme Creators</p>
+                    <p>Meme Creators</p>
                 </div>
             </div>
 
@@ -132,8 +132,8 @@ const Programs = () => {
                     <h1>1st Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>12.9M $KAMA to the</h1>
-                    <h1>First 258 Presale Buyers.</h1>
+                    <h1>12.9M $KAMA to First</h1>
+                    <h1>258 Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
                     <p>50,000 $KAMA Each</p>
