@@ -5,7 +5,7 @@ import LiIconDone from "./LiIconDone"
 import LiIconProgress from "./LiIconProgress"
 import CountdownTimer from './CountdownTimer';
 
-const airdropCountdownDate = new Date('May 5, 2024 23:59:59 UTC').getTime();
+const airdropCountdownDate = new Date('April 30, 2024 23:59:59 UTC').getTime();
 const airdropCountdownTitle = <h1 className='' >Airdrop&nbsp;</h1>;
 
 const presaleCountdownDate = new Date('April 26, 2024 23:59:59 UTC').getTime();
@@ -139,13 +139,6 @@ const Roadmap = () => {
                 />
 
                 <DoneDetails 
-                title="Telegram Bot"
-                status="DONE"
-                time=""
-                info="Build and deploy the $KAMA Telegram Bot for Airdrop and Referrals."
-                />
-                
-                <DoneDetails 
                 title="Initiate Marketing Campaign"
                 status="DONE"
                 time=""
@@ -191,10 +184,10 @@ const Roadmap = () => {
                 />
                 
                 <Details 
-                title="Presale Token Distribution"
+                title="Presale & Bonuses Token Distribution"
                 status=""
                 time="" // April 23th, 2024
-                info="Distribute the token allocation of presale participants."
+                info="Distribute the token allocation of presale participants (including their bonuses)."
                 />
                 
                 <Details 
@@ -205,6 +198,13 @@ const Roadmap = () => {
                 />
                 
                 <Details 
+                title="Kickstart Competitions"
+                status=""
+                time=""
+                info="Start Weekly $KAMA Meme Creators competition."
+                />
+
+                <Details 
                 title="Airdrop Distribution"
                 status=""
                 time=""
@@ -212,17 +212,10 @@ const Roadmap = () => {
                 />
 
                 <Details 
-                title="Bonuses Distribution"
-                status=""
-                time=""
-                info="Validate and Distribute the Bonus allocations."
-                />
-
-                <Details 
                 title="Daily Token Burn"
                 status=""
                 time="" // May 11th, 2024 - May 21st, 2024
-                info="Burn $KAMA - Burn 12% over the period of 12 days (1% Burn per day)."
+                info="Burn $KAMA - Burn 12.1% over the period of 10 days (1.21% Burn per day)."
                 />
             </ul>
         </div>

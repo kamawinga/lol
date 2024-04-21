@@ -82,7 +82,7 @@ const Kamanomics = () => {
                     <h1>Fair Tokenomics</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                <h1>10% for Team & 12% for Burn</h1>
+                <h1>9.9% Team & 12.1% Burn</h1>
                 </div>
             </div>
 
@@ -93,10 +93,10 @@ const Kamanomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Daily Burn</h1>
+                    <h1>Daily Burn 1.21%</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Burn 12% in 12 Days</h1>
+                    <h1>Burn 12.1% in 10 Days</h1>
                 </div>
             </div>
 
@@ -152,10 +152,10 @@ const Kamanomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Referrals</h1>
+                    <h1>LP Launch</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Referrals for Marketing</h1>
+                    <h1>70% of Raised $SOL for LP</h1>
                 </div>
             </div>
 

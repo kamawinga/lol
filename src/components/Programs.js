@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import presalcommunityBonusesPic from "../../public/images/presale.png";
 import airdropPic from "../../public/images/airdrop.png";
-import referralsPic from "../../public/images/referrals.png";
+import firstInAirdropPic from "../../public/images/firstInAirdropPic.png";
 import communityBonusesPic from "../../public/images/community-competitions.png";
 import firstBuyersBonusesPic from "../../public/images/first-buyers-bonuses.png";
 import biggestBuyersBonusesPic from "../../public/images/biggest-buyers-bonuses.png";
@@ -34,7 +34,7 @@ const Programs = () => {
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
                     <h1>30% of $KAMA for</h1>
-                    <h1>Presale On X/Twitter</h1>
+                    <h1>Presale Allocation</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
                     <p>Minimum 0.3 SOL</p>
@@ -57,8 +57,8 @@ const Programs = () => {
                     <h1>Airdrop</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>2,580 Random users</h1>
-                    <h1>with min. 3 referrals.</h1>
+                    <h1>2,580 Random</h1>
+                    <h1>Participants</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
                     <p>50,000 $KAMA Each</p>
@@ -72,20 +72,20 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={referralsPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={firstInAirdropPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Referrals</h1>
+                    <h1>First In Airdrop</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>25.8M $KAMA to</h1>
-                    <h1>Top 258 Referrers.</h1>
+                    <h1>Guaranteed $KAMA to the</h1>
+                    <h1>First 500 to join Airdrop.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>100,000 $KAMA Each</p>
+                    <p>51,600 $KAMA Each</p>
                 </div>
             </div>
         </div>
@@ -153,14 +153,14 @@ const Programs = () => {
                     />
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Max Buyers Bonuses</h1>
+                    <h1>Top Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>12.9M $KAMA to 100</h1>
+                    <h1>12.9M $KAMA to Top 10</h1>
                     <h1>Biggest Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>129,000 $KAMA Each</p>
+                    <p>1,290,000 $KAMA Each</p>
                 </div>
             </div>
         </div>
