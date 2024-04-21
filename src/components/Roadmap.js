@@ -5,10 +5,10 @@ import LiIconDone from "./LiIconDone"
 import LiIconProgress from "./LiIconProgress"
 import CountdownTimer from './CountdownTimer';
 
-const airdropCountdownDate = new Date('May 3, 2024 23:59:59 UTC').getTime();
+const airdropCountdownDate = new Date('May 5, 2024 23:59:59 UTC').getTime();
 const airdropCountdownTitle = <h1 className='' >Airdrop&nbsp;</h1>;
 
-const presaleCountdownDate = new Date('April 22, 2024 23:59:59 UTC').getTime();
+const presaleCountdownDate = new Date('April 26, 2024 23:59:59 UTC').getTime();
 const presaleCountdownTitle = <h1 className='' >Presale&nbsp;</h1>;
 
 
@@ -201,7 +201,7 @@ const Roadmap = () => {
                 title="Liquidity Launch"
                 status=""
                 time=""
-                info="Add Liquidity ON DEX and burn the LP token."
+                info="Add Liquidity on DEX and burn the LP token. 70% of the SOL Raised from Presale will be added to LP, the remainder is for the Team and Marketing."
                 />
                 
                 <Details 
@@ -222,7 +222,7 @@ const Roadmap = () => {
                 title="Daily Token Burn"
                 status=""
                 time="" // May 11th, 2024 - May 21st, 2024
-                info="Burn $KAMA - Burn 11% over the period of 11 days (1% Burn per day)."
+                info="Burn $KAMA - Burn 12% over the period of 12 days (1% Burn per day)."
                 />
             </ul>
         </div>
