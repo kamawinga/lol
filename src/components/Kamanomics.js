@@ -82,7 +82,7 @@ const Kamanomics = () => {
                     <h1>Fair Tokenomics</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                <h1>10% for Team & 11% for Burn</h1>
+                <h1>10% for Team & 12% for Burn</h1>
                 </div>
             </div>
 
@@ -96,7 +96,7 @@ const Kamanomics = () => {
                     <h1>Daily Burn</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Burn 11% in 11 Days</h1>
+                    <h1>Burn 12% in 12 Days</h1>
                 </div>
             </div>
 
@@ -138,10 +138,10 @@ const Kamanomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Marketing</h1>
+                    <h1>Roadmap</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Promotions for Marketing</h1>
+                    <h1>Clear Roadmap</h1>
                 </div>
             </div>
 
@@ -173,7 +173,7 @@ const Kamanomics = () => {
                     <h1>Presale</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                <h1>Presale for early liquidity</h1>
+                <h1>Presale for liquidity</h1>
                 </div>
             </div>
 
@@ -198,13 +198,12 @@ const Kamanomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Weekly Competitions</h1>
+                    <h1>Competitions</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>10 Big Winners per Week</h1>
+                    <h1>Weekly Winners Rewarded</h1>
                 </div>
             </div>
-
         </div>
     </div>
   )
