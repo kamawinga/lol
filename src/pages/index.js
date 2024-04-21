@@ -67,7 +67,7 @@ export default function Home() {
                 >Presale <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
 
-                <Link href="https://x.com/kamawinga_lol" target={"_blank"}
+                <Link href="https://twitter.com/kamawinga_lol/status/1782115658731606398" target={"_blank"}
                 className="ml-10 flex items-center bg-primaryDark text-primary p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-primary hover:text-primaryDark border-2 border-solid border-primary hover:border-primaryDark
                 dark:bg-primaryDark dark:text-primary hover:dark:bg-primary hover:dark:text-primaryDark dark:border-primary hover:dark:border-primaryDark
