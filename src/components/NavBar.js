@@ -36,7 +36,7 @@ const CustomMobileLink = ({href, title, className="", toggle}) => {
             {title}
 
             <span className={`
-            h-1 rounded-md inline-block bg-primaryDark dark:bg-primary absolute left-0 -bottom-0.5
+            h-1 rounded-md inline-block bg-primary dark:bg-primary absolute left-0 -bottom-0.5
             group-hover:w-full transition-[width] ease duration-300 text-primaryDark dark:text-primary
             ${router.asPath === href ? 'w-full h1 rounded-md' : 'w-0'}
             `}
@@ -63,7 +63,7 @@ const NavBar = () => {
         <div className='
         w-[95%] h-[10.5%] mt-10 sm:mt-5 lg:mt-7 2xl:mt-8 sm:h-[7.5%] lg:h-[8.5%] md:h-[8%] 2xl:h-[8%] 
         flex justify-between items-center fixed top-10 left-1/2 -translate-x-1/2 -translate-y-1/2
-        bg-primaryDark/40 dark:bg-primaryDark/40 rounded-lg backdrop-blur-sm px-8 py-8 z-30
+        bg-primary/40 dark:bg-primaryDark/40 rounded-lg backdrop-blur-sm px-8 py-8 z-30
         '>
           
             <nav className="flex pb-4 2xl:pb-3 xl:pb-3 justify-center">
@@ -83,10 +83,10 @@ const NavBar = () => {
                 </nav>
 
                 <nav>
-                    <CustomLink href="/" title="Home" className='mr-10 xl:mr-5 2xl:mr-7 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#kamanomics" title="Kamanomics" className='mr-6 xl:mr-3 2xl:mr-4 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
-                    <CustomLink href="#roadmap" title="Roadmap" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
+                    <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
+                    <CustomLink href="#gallery" title="Gallery" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#footer" title="Disclaimer" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
                 </nav>
 
@@ -143,12 +143,13 @@ const NavBar = () => {
             initial={ {scale:0, opacity:0, x: "-50%", y:"-50%"} }
             animate={ {scale:1, opacity:1}}
             className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-            bg-primaryDark/40 dark:bg-primary/40 rounded-lg backdrop-blur-md py-32
+            bg-primary/40 dark:bg-primaryDark/40 rounded-lg backdrop-blur-md py-32
             '>
                 <nav className='flex items-center flex-col justify-center'>
                     <CustomMobileLink href="/" title="Home" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                     <CustomMobileLink href="#kamanomics" title="Kamanomics" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                     <CustomMobileLink href="#programs" title="Programs" className='text-primaryDark dark:text-primary' toggle={handleClick} />
+                    <CustomMobileLink href="#gallery" title="Gallery" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                     <CustomMobileLink href="#roadmap" title="Roadmap" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                     <CustomMobileLink href="#footer" title="Disclaimer" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                 </nav>
