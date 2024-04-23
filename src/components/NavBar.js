@@ -85,8 +85,8 @@ const NavBar = () => {
                 <nav>
                     <CustomLink href="#kamawnomics" title="Kamawnomics" className='mr-6 xl:mr-3 2xl:mr-4 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
-                    <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#gallery" title="Gallery" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
+                    <CustomLink href="#roadmap" title="Roadmap" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#footer" title="Disclaimer" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
                 </nav>
 
