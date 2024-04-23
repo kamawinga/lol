@@ -17,15 +17,15 @@ module.exports = {
         mont: ['var(--font-mont)', ...fontFamily.sans],
       },
       colors:{
-        dark: "#1b2b3b", // Kama Dark
-        light: "#e4f4f4", // Kama Light
-        primary: "#F6CD46", //  - Kama Yellow
-        kamaYellowDark: "#F6CD46", //  - Kama Yellow
-        primaryDark: "#843FC5", // Kama Purple
-        kamaGreen: "#45f383", // Kama Green
-        kamaGreenDark: "#09C64F", // Kama Green Dark
-        kamaYellow: "#FFDE69", //  - Kama Yellow
-        kamaYellowDark: "#E2B136", //  - Kama Yellow
+        dark: "#1b2b3b", // Kamaw Dark
+        light: "#e4f4f4", // Kamaw Light
+        primary: "#F6CD46", //  - Kamaw Yellow
+        kamawYellowDark: "#F6CD46", //  - Kamaw Yellow
+        primaryDark: "#843FC5", // Kamaw Purple
+        kamawGreen: "#45f383", // Kamaw Green
+        kamawGreenDark: "#09C64F", // Kamaw Green Dark
+        kamawYellow: "#FFDE69", //  - Kamaw Yellow
+        kamawYellowDark: "#E2B136", //  - Kamaw Yellow
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',

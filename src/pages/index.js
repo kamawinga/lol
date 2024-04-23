@@ -10,7 +10,7 @@ import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect';
 import Roadmap from '@/components/Roadmap';
 import Programs from '@/components/Programs';
-import Kamanomics from '@/components/Kamanomics';
+import Kamawnomics from '@/components/Kamawnomics';
 import { motion } from 'framer-motion';
 import CountdownTimer from '@/components/CountdownTimer';
 import Gallery from '@/components/Gallery';
@@ -25,8 +25,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>$KAMA Memecoin</title>
-        <meta name="description" content="The Website of $KAMA (Kamawinga) Memecoin" />
+        <title>$KAMAW Memecoin</title>
+        <meta name="description" content="The Website of $KAMAW (Kamawinga) Memecoin" />
       </Head>
       <TransitionEffect />
       <main className='flex items-center text-dark w-full main-h-screen dark:text-light'>
@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex items-center justify-between w-full lg:flex-col xs:pt-8 sm:pt-8 pt-12 md:pt-8 lg:pt-8 xl:pt-15 2xl:pt-15">
             
             <div className='w-[47%]'>
-              <Image src={profilePic} alt="$KAMA Memecoin" className='w-full h-auto lg:w-full md:inline-block md:w-full'
+              <Image src={profilePic} alt="$KAMAW Memecoin" className='w-full h-auto lg:w-full md:inline-block md:w-full'
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 50vw"
               />
@@ -44,7 +44,7 @@ export default function Home() {
 
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
 
-              <AnimatedText text="KAMA Oh, KAMA Oh!" className='!text-5xl !text-center text-primaryDark
+              <AnimatedText text="KAMAW Oh, KAMAW Oh!" className='!text-5xl !text-center text-primaryDark
               xl:!text-4xl lg:!text-center lg:!text-5xl md:!text5xl sm:text-3xl dark:text-primary
               '/>
               
@@ -53,7 +53,7 @@ export default function Home() {
               '/>
 
               <p className='my-4 text-lg font-medium md:text-lg sm:text-lg'>
-                If Kama had wheels, he’d be a bike. Kama can be whatever. 
+                If Kamaw had wheels, he’d be a bike. Kamaw can be whatever.
               </p>
 
               <div className='flex items-center self-center mt-2 lg:self-center'>
@@ -89,8 +89,8 @@ export default function Home() {
 
           </div>
           
-          <div id='kamanomics'>
-            <Kamanomics/> 
+          <div id='kamawnomics'>
+            <Kamawnomics/> 
           </div>
 
           <div id='programs'>
@@ -107,7 +107,7 @@ export default function Home() {
         </Layout>
 
         <div className='absolute right-8 bottom-8 inline-block w-24 md:bottom-[300px] lg:bottom-[260px]'>
-          <Image src={lightBulb} alt="$KAMA Memecoin" className='w-full h-auto' />
+          <Image src={lightBulb} alt="$KAMAW Memecoin" className='w-full h-auto' />
         </div>
 
       </main>

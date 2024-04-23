@@ -24,7 +24,7 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={presalcommunityBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={presalcommunityBonusesPic} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
@@ -33,7 +33,7 @@ const Programs = () => {
                     <h1>Presale</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>30% of $KAMA for</h1>
+                    <h1>30% of $KAMAW for</h1>
                     <h1>Presale Allocation</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
@@ -48,7 +48,7 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={airdropPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={airdropPic} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
@@ -61,7 +61,7 @@ const Programs = () => {
                     <h1>Participants</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>50,000 $KAMA Each</p>
+                    <p>50,000 $KAMAW Each</p>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={firstInAirdropPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={firstInAirdropPic} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
@@ -81,11 +81,11 @@ const Programs = () => {
                     <h1>First In Airdrop</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>Guaranteed $KAMA to the</h1>
+                    <h1>Guaranteed $KAMAW to the</h1>
                     <h1>First 500 to join Airdrop.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>51,600 $KAMA Each</p>
+                    <p>51,600 $KAMAW Each</p>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={communityBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={communityBonusesPic} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
@@ -108,7 +108,7 @@ const Programs = () => {
                     <h1>Competition</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>25.8M $KAMA to</h1>
+                    <h1>25.8M $KAMAW to</h1>
                     <h1>Community Chosen Winners.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
@@ -123,7 +123,7 @@ const Programs = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={firstBuyersBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={firstBuyersBonusesPic} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
@@ -132,11 +132,11 @@ const Programs = () => {
                     <h1>1st Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>12.9M $KAMA to the</h1>
+                    <h1>12.9M $KAMAW to the</h1>
                     <h1>First 100 Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>129,000 $KAMA Each</p>
+                    <p>129,000 $KAMAW Each</p>
                 </div>
             </div>
 
@@ -147,7 +147,7 @@ const Programs = () => {
                     className='absolute top-0 -right-2 -z-10 w-[102%] h-[102%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div>
-                    <Image src={biggestBuyersBonusesPic} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl'
+                    <Image src={biggestBuyersBonusesPic} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 120px) 50vw, 33vw"
                     />
@@ -156,11 +156,11 @@ const Programs = () => {
                     <h1>Top Buyers Bonuses</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm pt-3'>
-                    <h1>12.9M $KAMA to Top 10</h1>
+                    <h1>12.9M $KAMAW to Top 10</h1>
                     <h1>Biggest Presale Buyers.</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>1,290,000 $KAMA Each</p>
+                    <p>1,290,000 $KAMAW Each</p>
                 </div>
             </div>
         </div>

@@ -22,37 +22,37 @@ const Gallery = () => {
         <div className='col-span-3 xl:col-span-3 md:col-span-6 lg:col-span-6 relative h-max rounded-2xl border-2
         border-solid border-dark bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light md:order-1'
         >
-          <Image src={kamaclean} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
+          <Image src={kamaclean} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
         </div>
 
         <div className='col-span-3 xl:col-span-3 md:col-span-6 lg:col-span-6 relative h-max rounded-2xl border-2
         border-solid border-dark bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light md:order-1'
         >
-          <Image src={kamaclub} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
+          <Image src={kamaclub} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
         </div>
 
         <div className='col-span-3 xl:col-span-3 md:col-span-6 lg:col-span-6 relative h-max rounded-2xl border-2
         border-solid border-dark bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light md:order-1'
         >
-          <Image src={kamaestadio} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
+          <Image src={kamaestadio} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
         </div>
 
         <div className='col-span-3 xl:col-span-3 md:col-span-6 lg:col-span-6 relative h-max rounded-2xl border-2
         border-solid border-dark bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light md:order-1'
         >
-          <Image src={kamafingerbus} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
+          <Image src={kamafingerbus} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
         </div>
 
         <div className='col-span-3 xl:col-span-3 md:col-span-6 lg:col-span-6 relative h-max rounded-2xl border-2
         border-solid border-dark bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light md:order-1'
         >
-          <Image src={kamahousethanos} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
+          <Image src={kamahousethanos} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
         </div>
 
         <div className='col-span-3 xl:col-span-3 md:col-span-6 lg:col-span-6 relative h-max rounded-2xl border-2
         border-solid border-dark bg-radialSunLight p-8 dark:bg-radialSunDark dark:border-light md:order-1'
         >
-          <Image src={kamaspray} alt='$KAMA Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
+          <Image src={kamaspray} alt='$KAMAW Memecoin' className='w-full h-auto rounded-2xl break-inside-avoid' />
         </div>
       </div>
     </div>

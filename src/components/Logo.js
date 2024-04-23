@@ -13,7 +13,7 @@ const Logo = () => {
         className='w-16 h-16 bg-primaryDark dark:bg-primary text-dark dark:text-dark flex items-center justify-center
         rounded-full text-sm font-bold border border-solid border-dark dark:border-light'
       >
-        <Image src={kamaIcon} alt={"$KAMA Icon"} className='w-full h-auto' priority />
+        <Image src={kamaIcon} alt={"$KAMAW Icon"} className='w-full h-auto' priority />
       </Link>
     </div>
   )

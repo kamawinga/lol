@@ -27,7 +27,7 @@ const Details = ({ status, time, title, info}) => {
                 <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
                     {title}
                 </h3>
-                <h3 className='capitalize font-bold text-kamaGreenDark dark:text-kamaGreen text-l sm:text-lg xs:text-sm'>
+                <h3 className='capitalize font-bold text-kamawGreenDark dark:text-kamawGreen text-l sm:text-lg xs:text-sm'>
                     {status}
                 </h3>
                 <span className='capitalize font-medium text-primaryDark/75 dark:text-light/75 sm:text-lg xs:text-sm'>
@@ -55,7 +55,7 @@ const DoneDetails = ({ status, time, title, info}) => {
                 <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
                     {title}
                 </h3>
-                <h3 className='capitalize font-bold text-kamaGreenDark dark:text-kamaGreen text-l sm:text-lg xs:text-sm'>
+                <h3 className='capitalize font-bold text-kamawGreenDark dark:text-kamawGreen text-l sm:text-lg xs:text-sm'>
                     {status}
                 </h3>
                 <span className='capitalize font-medium text-primaryDark/75 dark:text-light/75 sm:text-lg xs:text-sm'>
@@ -82,7 +82,7 @@ const ProgressDetails = ({ status, time, title, info}) => {
                 <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
                     {title}
                 </h3>
-                <h3 className='capitalize font-bold text-kamaYellowDark dark:text-kamaYellow text-l sm:text-lg xs:text-sm'>
+                <h3 className='capitalize font-bold text-kamawYellowDark dark:text-kamawYellow text-l sm:text-lg xs:text-sm'>
                     {status}
                 </h3>
                 <span className='capitalize font-medium text-primaryDark/75 dark:text-light/75 sm:text-lg xs:text-sm'>
@@ -201,7 +201,7 @@ const Roadmap = () => {
                 title="Kickstart Competitions"
                 status=""
                 time=""
-                info="Start Weekly $KAMA Meme Creators competition."
+                info="Start Weekly $KAMAW Meme Creators competition."
                 />
 
                 <Details 
@@ -215,7 +215,7 @@ const Roadmap = () => {
                 title="Daily Token Burn"
                 status=""
                 time="" // May 11th, 2024 - May 21st, 2024
-                info="Burn $KAMA - Burn 12.1% over the period of 10 days (1.21% Burn per day)."
+                info="Burn $KAMAW - Burn 12.1% over the period of 10 days (1.21% Burn per day)."
                 />
             </ul>
         </div>

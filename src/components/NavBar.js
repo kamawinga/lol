@@ -83,7 +83,7 @@ const NavBar = () => {
                 </nav>
 
                 <nav>
-                    <CustomLink href="#kamanomics" title="Kamanomics" className='mr-6 xl:mr-3 2xl:mr-4 text-primaryDark dark:text-primary'/>
+                    <CustomLink href="#kamawnomics" title="Kamawnomics" className='mr-6 xl:mr-3 2xl:mr-4 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#programs" title="Programs" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
                     <CustomLink href="#gallery" title="Gallery" className='mx-6 xl:mx-3 2xl:mx-4 text-primaryDark dark:text-primary'/>
@@ -147,7 +147,7 @@ const NavBar = () => {
             '>
                 <nav className='flex items-center flex-col justify-center'>
                     <CustomMobileLink href="/" title="Home" className='text-primaryDark dark:text-primary' toggle={handleClick} />
-                    <CustomMobileLink href="#kamanomics" title="Kamanomics" className='text-primaryDark dark:text-primary' toggle={handleClick} />
+                    <CustomMobileLink href="#kamawnomics" title="Kamawnomics" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                     <CustomMobileLink href="#programs" title="Programs" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                     <CustomMobileLink href="#gallery" title="Gallery" className='text-primaryDark dark:text-primary' toggle={handleClick} />
                     <CustomMobileLink href="#roadmap" title="Roadmap" className='text-primaryDark dark:text-primary' toggle={handleClick} />

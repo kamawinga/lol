@@ -2,12 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 import allocPic from "../../public/images/allocations.png";
 
-const Kamanomics = () => {
+const Kamawnomics = () => {
   return (
     <div className='my-20'>
 
         <h2 className='font-bold text-8xl mb-20 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-            Kamanomic$
+            Kamawnomic$
         </h2>
 
         <div className='w-full grid grid-cols-3 gap-16 sm:gap-8 items-center justify-center'>
@@ -110,7 +110,7 @@ const Kamanomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center' >
-                    <Image src={allocPic} alt='$KAMA Memecoin Token Allocations' />
+                    <Image src={allocPic} alt='$KAMAW Memecoin Token Allocations' />
                 </div>
             </div>
         </div>
@@ -209,4 +209,4 @@ const Kamanomics = () => {
   )
 }
 
-export default Kamanomics
+export default Kamawnomics

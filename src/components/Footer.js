@@ -93,18 +93,18 @@ const Footer = () => {
         <Layout className='py-4 flex items-center justify-between lg:flex-col lg:py-6'>
             <div className='flex items-center lg:py-4'>
               <p>
-                Disclaimer: $KAMA is a meme coin with no intrinsic value or expectation of financial return. 
+                Disclaimer: $KAMAW is a meme coin with no intrinsic value or expectation of financial return. 
                 The memecoin is strictly for fun and experimental and should not be considered as having any 
-                monetary value. $KAMA is completely useless and for entertainment purposes only and its use 
-                beyond this scope is neither intended nor endorsed. $KAMA is a fictional character based on 
-                a living meme and does not represent a person. Neither $KAMA nor its developer(s) assume any 
-                liability for any form of value attributed to the $KAMA memecoin or for any financial activities 
-                undertaken by users within or in relation to the $KAMA community. By purchasing $KAMA and/or 
-                participating in the $KAMA community and its related applications and activities, you are 
+                monetary value. $KAMAW is completely useless and for entertainment purposes only and its use 
+                beyond this scope is neither intended nor endorsed. $KAMAW is a fictional character based on 
+                a living meme and does not represent a person. Neither $KAMAW nor its developer(s) assume any 
+                liability for any form of value attributed to the $KAMAW memecoin or for any financial activities 
+                undertaken by users within or in relation to the $KAMAW community. By purchasing $KAMAW and/or 
+                participating in the $KAMAW community and its related applications and activities, you are 
                 agreeing that you have seen this disclaimer and acknowledge the uselessness of the memecoin 
                 and agree to bear all the risks associated with the use and/or purchase of a memecoin. 
                 Moreover, 30% of the Raised SOL from Presale will go to the Team and Marketing while the remainder(70%) 
-                will be added to LP paired with 40% of $KAMA Supply as written above in Tokenomics and Roadmap.
+                will be added to LP paired with 40% of $KAMAW Supply as written above in Tokenomics and Roadmap.
               </p>
             </div>
         </Layout>
