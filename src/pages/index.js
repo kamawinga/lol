@@ -17,7 +17,7 @@ import Gallery from '@/components/Gallery';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const CountdownDate = new Date('April 26, 2024 23:59:59 UTC').getTime();
+const CountdownDate = new Date('April 28, 2024 23:59:59 UTC').getTime();
 const CountdownTitle = <h1 className='' >Presale&nbsp;</h1>;
 const FramerImage = motion(Image);
 
