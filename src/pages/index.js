@@ -75,7 +75,7 @@ export default function Home() {
               </p>
 
               <div className='flex items-center self-center mt-2 lg:self-center'>
-                <Link href="https://twitter.com/kamawinga_lol/status/1782111768023806024" target={"_blank"}
+                <Link href="https://x.com/kamawinga_lol/status/1782760414104670683?s=46&t=1JAq1-JYaVIj5m-54n3TNw" target={"_blank"}
                 className="flex items-center bg-primary text-primaryDark p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-primaryDark hover:text-primary border-2 border-solid border-primaryDark hover:border-primary
                 dark:bg-primary dark:text-primaryDark hover:dark:bg-primaryDark hover:dark:text-primary dark:border-primaryDark hover:dark:border-primary
@@ -85,7 +85,7 @@ export default function Home() {
                 >Presale <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
 
-                <Link href="https://twitter.com/kamawinga_lol/status/1782115658731606398" target={"_blank"}
+                <Link href="https://x.com/kamawinga_lol/status/1782761673876488512?s=46&t=1JAq1-JYaVIj5m-54n3TNw" target={"_blank"}
                 className="ml-10 flex items-center bg-primaryDark text-primary p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-primary hover:text-primaryDark border-2 border-solid border-primary hover:border-primaryDark
                 dark:bg-primaryDark dark:text-primary hover:dark:bg-primary hover:dark:text-primaryDark dark:border-primary hover:dark:border-primaryDark
