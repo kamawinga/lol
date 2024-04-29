@@ -3,7 +3,8 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon"
 import LiIconDone from "./LiIconDone"
 import LiIconProgress from "./LiIconProgress"
-import CountdownTimer from './CountdownTimer';
+import CountdownHoursTimer from './CountdownHoursTimer';
+import CountdownDaysTimer from './CountdownDaysTimer';
 
 const airdropCountdownDate = new Date('May 7, 2024 23:59:59 UTC').getTime();
 const airdropCountdownTitle = <h1 className='' >Airdrop&nbsp;</h1>;
@@ -154,7 +155,7 @@ const Roadmap = () => {
                 />
 
                 <div className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between  md:w-[80-%]'>
-                    <CountdownTimer 
+                    <CountdownDaysTimer 
                         countdownDate={airdropCountdownDate}
                         countdownTitle={airdropCountdownTitle}
                     />
@@ -169,7 +170,7 @@ const Roadmap = () => {
                 />
 
                 <div className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between  md:w-[80-%]'>
-                    <CountdownTimer 
+                    <CountdownHoursTimer 
                         countdownDate={presaleCountdownDate}
                         countdownTitle={presaleCountdownTitle}
                     />

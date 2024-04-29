@@ -12,7 +12,7 @@ import Roadmap from '@/components/Roadmap';
 import Programs from '@/components/Programs';
 import Kamawnomics from '@/components/Kamawnomics';
 import { motion } from 'framer-motion';
-import CountdownTimer from '@/components/CountdownTimer';
+import CountdownHoursTimer from '@/components/CountdownHoursTimer';
 import Gallery from '@/components/Gallery';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
 
               <div className='flex items-center self-center mt-5 lg:self-center'>
-                  <CountdownTimer
+                  <CountdownHoursTimer
                       countdownDate={CountdownDate}
                       countdownTitle={CountdownTitle}
                   />
