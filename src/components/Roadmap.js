@@ -6,7 +6,7 @@ import LiIconProgress from "./LiIconProgress"
 import CountdownHoursTimer from './CountdownHoursTimer';
 import CountdownDaysTimer from './CountdownDaysTimer';
 
-const airdropCountdownDate = new Date('May 7, 2024 23:59:59 UTC').getTime();
+const airdropCountdownDate = new Date('May 13, 2024 23:59:59 UTC').getTime();
 const airdropCountdownTitle = <h1 className='' >Airdrop&nbsp;</h1>;
 
 const presaleCountdownDate = new Date('April 30, 2024 23:59:59 UTC').getTime();
