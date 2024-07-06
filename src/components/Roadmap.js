@@ -7,10 +7,10 @@ import CountdownHoursTimer from './CountdownHoursTimer';
 import CountdownDaysTimer from './CountdownDaysTimer';
 
 const airdropCountdownDate = new Date('May 13, 2024 23:59:59 UTC').getTime();
-const airdropCountdownTitle = <h1 className='' >Airdrop&nbsp;</h1>;
+const airdropCountdownTitle = <h1 className='' >Airdrop Closes In...&nbsp;</h1>;
 
 const presaleCountdownDate = new Date('April 30, 2024 23:59:59 UTC').getTime();
-const presaleCountdownTitle = <h1 className='' >Presale&nbsp;</h1>;
+const presaleCountdownTitle = <h1 className='' >Presale Opens In...&nbsp;</h1>;
 
 
 const Details = ({ status, time, title, info}) => {

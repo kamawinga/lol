@@ -47,7 +47,7 @@ const CountdownHoursTimer = ({countdownDate, countdownTitle}) => {
   return (
     <div className='items-center justify-center bg-radialMoonDark dark:bg-radialMoonLight p-4 rounded-2xl border border-solid border-2 border-primaryDark dark:border-primaryDark' >
       <div className='flex pb-2 items-center justify-center font-bold text-3xl text-primary dark:text-dark'>
-        {countdownTitle} Closes In...
+        {countdownTitle}
       </div>
       <div className="grid grid-cols-3 gap-4 items-center justify-center bg-primary dark:bg-primaryDark p-4 rounded-2xl border border-solid border-2 border-primaryDark dark:border-primaryDark">
         {/*         
