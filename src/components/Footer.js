@@ -103,9 +103,8 @@ const Footer = () => {
                 participating in the $KAMAW community and its related applications and activities, you are 
                 agreeing that you have seen this disclaimer and acknowledge the uselessness of the memecoin 
                 and agree to bear all the risks associated with the use and/or purchase of a memecoin. 
-                Moreover, 30% of the Raised SOL from Presale will go to the Team and Marketing while the remainder(70%) 
-                will be added to LP paired with 40% of $KAMAW Supply as written above in Tokenomics and Roadmap.
-                This website collects usage data with Google Analytics, it does not collect specific user data.
+                Moreover, 5% of the Raised SOL from Presale will go to marketing while the remainder(95%) 
+                will be added to LP paired with 40% of $KAMAW Supply. This website does not collect user data.
               </p>
             </div>
         </Layout>
