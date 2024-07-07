@@ -166,7 +166,7 @@ const Roadmap = () => {
                 title="Presale Event"
                 status="PROGRESS"
                 time=""
-                info="Ongoing Presale Event. 95% of SOL Raised will be put in LP, the remaining 5% is for marketing."
+                info="Ongoing Presale Event. 97% of SOL Raised will be put in LP, the remaining 3% is for marketing."
                 />
 
                 <div className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between  md:w-[80-%]'>
