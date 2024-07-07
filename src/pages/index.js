@@ -71,7 +71,7 @@ export default function Home() {
               '/>
 
               <p className='my-4 text-lg font-medium md:text-lg sm:text-lg'>
-                If Kamaw had wheels, he’d be a bike. Kamaw can be whatever.
+                If Kamaw had wheels, he’d be a bike. Kamaw can be whatever LOL!
               </p>
 
               <div className='flex items-center self-center mt-2 lg:self-center'>
