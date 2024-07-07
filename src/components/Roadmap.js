@@ -6,10 +6,10 @@ import LiIconProgress from "./LiIconProgress"
 import CountdownHoursTimer from './CountdownHoursTimer';
 import CountdownDaysTimer from './CountdownDaysTimer';
 
-const airdropCountdownDate = new Date('May 13, 2024 23:59:59 UTC').getTime();
+const airdropCountdownDate = new Date('July 13, 2024 19:00:00 UTC').getTime();
 const airdropCountdownTitle = <h1 className='' >Airdrop Closes In...&nbsp;</h1>;
 
-const presaleCountdownDate = new Date('April 30, 2024 23:59:59 UTC').getTime();
+const presaleCountdownDate = new Date('July 9, 2024 19:00:00 UTC').getTime();
 const presaleCountdownTitle = <h1 className='' >Presale Opens In...&nbsp;</h1>;
 
 
@@ -146,7 +146,6 @@ const Roadmap = () => {
                 info="Start Marketing Campaign."
                 />
                 
-
                 <ProgressDetails 
                     title="Airdrop Event"
                     status="PROGRESS"
@@ -154,14 +153,16 @@ const Roadmap = () => {
                     info="Ongoing Airdrop Event."
                 />
 
+                {/* 
                 <div className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between  md:w-[80-%]'>
                     <CountdownDaysTimer 
                         countdownDate={airdropCountdownDate}
                         countdownTitle={airdropCountdownTitle}
                     />
                 </div>
-
-
+                */}
+                
+                {/* 
                 <ProgressDetails 
                 title="Presale Event"
                 status="PROGRESS"
@@ -175,13 +176,21 @@ const Roadmap = () => {
                         countdownTitle={presaleCountdownTitle}
                     />
                 </div>
-                
+                */}
+
+                <Details 
+                title="Presale Event"
+                status=""
+                time=""
+                info="Ongoing Presale Event. 97% of SOL Raised will be put in LP, the remaining 3% is for marketing."
+                />
+
 
                 <Details 
                 title="Token Generation Event"
                 status=""
                 time="" // April 22nd, 2024
-                info="Create and deploy the SPL token, revoke mint and renounce contract ownership."
+                info="Deploy the SPL token, revoke mint and renounce contract ownership."
                 />
                 
                 <Details 
@@ -215,7 +224,7 @@ const Roadmap = () => {
                 <Details 
                 title="Daily Token Burn"
                 status=""
-                time="" // May 11th, 2024 - May 21st, 2024
+                time="" // July 14th, 2024 - May 21st, 2024
                 info="Burn $KAMAW - Burn 12.1% over the period of 10 days (1.21% Burn per day)."
                 />
             </ul>

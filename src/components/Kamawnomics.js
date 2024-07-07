@@ -10,6 +10,10 @@ const Kamawnomics = () => {
             Kamawnomic$
         </h2>
 
+        <h4 className='font-bold text-4xl mb-20 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
+        Total Supply: 2,580,000,000
+        </h4>
+
         <div className='w-full grid grid-cols-3 gap-16 sm:gap-8 items-center justify-center'>
             
             <div className='col-span-1 relative h-max rounded-2xl border-2 border-solid border-dark
@@ -155,7 +159,7 @@ const Kamawnomics = () => {
                     <h1>LP Launch</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>70% of Raised $SOL for LP</h1>
+                    <h1>97% of $SOL Raised for LP</h1>
                 </div>
             </div>
 
