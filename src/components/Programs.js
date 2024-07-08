@@ -37,7 +37,7 @@ const Programs = () => {
                     <h1>Presale Allocation</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm text-primaryDark dark:text-primary pt-3'>
-                    <p>Minimum 0.3 SOL</p>
+                    <p>Minimum 0.3-10 SOL</p>
                 </div>
             </div>
 
