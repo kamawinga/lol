@@ -10,8 +10,12 @@ const Kamawnomics = () => {
             Kamawnomic$
         </h2>
 
+        <h4 className='font-bold text-2xl mb-20 w-full text-center md:text-2xl xs:text-2xl md:mb-16'>
+          CA: 3DHm6CQKJ9LbJu42MHZoEBSRQFneGRWwTmDNAStT6Swx
+        </h4>
+
         <h4 className='font-bold text-4xl mb-20 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-        Total Supply: 2,580,000,000
+          Total Supply: 2,580,000,000
         </h4>
 
         <div className='w-full grid grid-cols-3 gap-16 sm:gap-8 items-center justify-center'>
