@@ -76,7 +76,7 @@ const Kamawnomics = () => {
                     <h1>LP Burn</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>LP Token Will Be Burned</h1>
+                    <h1>100% LP Token Will Be Burned</h1>
                 </div>
             </div>
 
@@ -135,7 +135,7 @@ const Kamawnomics = () => {
                     <h1>Airdrop</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Airdrop for marketing</h1>
+                    <h1>Airdrop for Community</h1>
                 </div>
             </div>
 
@@ -163,7 +163,7 @@ const Kamawnomics = () => {
                     <h1>LP Launch</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>97% of $SOL Raised for LP</h1>
+                    <h1>100% of $SOL Raised is for LP</h1>
                 </div>
             </div>
 
@@ -181,7 +181,7 @@ const Kamawnomics = () => {
                     <h1>Presale</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                <h1>70% of raise for LP</h1>
+                <h1>100% of Presale raise is for LP</h1>
                 </div>
             </div>
 
