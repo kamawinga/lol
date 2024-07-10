@@ -178,11 +178,11 @@ const Roadmap = () => {
                 </div>
                 */}
 
-                <Details 
+                <ProgressDetails 
                 title="Presale Event"
-                status=""
+                status="PROGRESS"
                 time=""
-                info="Ongoing Presale Event. 97% of SOL Raised will be put in LP, the remaining 3% is for marketing."
+                info="Ongoing Presale Event. 100% of SOL Raised will be put in LP. And LP token will be burned."
                 />
 
 
@@ -204,7 +204,7 @@ const Roadmap = () => {
                 title="Liquidity Launch"
                 status=""
                 time=""
-                info="Add Liquidity on DEX and burn the LP token. 70% of the SOL Raised from Presale will be added to LP, the remainder is for the Team and Marketing."
+                info="Add Liquidity on DEX and burn the LP token. 100% of SOL Raised will be put in LP. And LP token will be burned."
                 />
                 
                 <Details 
@@ -226,6 +226,22 @@ const Roadmap = () => {
                 status=""
                 time="" // July 14th, 2024 - May 21st, 2024
                 info="Burn $KAMAW - Burn 12.1% over the period of 10 days (1.21% Burn per day)."
+                />
+
+                
+                <Details 
+                title="CMC & Coingecko Listing"
+                status=""
+                time="" // July 14th, 2024 - May 21st, 2024
+                info="Get Listed on CoinMarketCap and Coingecko."
+                />
+
+                
+                <Details 
+                title="CEX Listing"
+                status=""
+                time="" // July 14th, 2024 - May 21st, 2024
+                info="Get Listed on top CEXs."
                 />
             </ul>
         </div>
