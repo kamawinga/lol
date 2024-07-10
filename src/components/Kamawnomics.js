@@ -41,10 +41,10 @@ const Kamawnomics = () => {
                     className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'
                 />
                 <div className='flex w-full flex-col items-center justify-center font-bold text-lg pt-6 text-primaryDark dark:text-primary'>
-                    <h1>Revoked Mint</h1>
+                    <h1>Revoked Mint & Freeze</h1>
                 </div>
                 <div className='flex w-full flex-col items-center justify-center font-bold text-sm'>
-                    <h1>Mint Authority is REVOKED</h1>
+                    <h1>Mint & Freeze are both REVOKED</h1>
                 </div>
             </div>
 
